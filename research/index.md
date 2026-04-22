@@ -1,17 +1,15 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
 {% include section.html %}
 
-## Publications
-
-<div id="publications-list" class="publications-list" data-page-size="20" markdown="1">
+<div id="publications-list" class="publications-list" data-page-size="10" markdown="1">
 
 {% assign sorted_citations = site.data.citations | sort: "date" | reverse %}
 {% assign current_year = "" %}

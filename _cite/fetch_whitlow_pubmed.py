@@ -1,14 +1,30 @@
 """
-Fetch the latest Christopher Whitlow papers from PubMed and write citations.yaml.
+Fetch recent publications for RIIPL lab members from PubMed.
+
+Each member has a PubMed query tuned to avoid same-initials collisions:
+
+- Strict ``LastName + Initials`` forms (e.g. ``Whitlow CT``) when available,
+  because PubMed normalizes authors to that form and it excludes unrelated
+  people who share a last name + first initial (e.g. Clysha "Whitlow C").
+- ORCID ``[AUID]`` when we have it, as a safety net for papers where the
+  initials were recorded slightly differently.
+- ``Wake Forest`` or ``Yale`` affiliation filters for lab members whose
+  names are common enough to collide with other researchers (anyone other
+  than Whitlow).
+
+Results are capped to the last 5 years. The file is regenerated from scratch
+on every run, so removing a member here also removes their older papers.
 """
 
 from __future__ import annotations
 
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
 from urllib.request import urlopen
 import json
 import re
+import time
 import xml.etree.ElementTree as ET
 
 import yaml
@@ -16,15 +32,62 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_data" / "citations.yaml"
-# How many of the most recent PubMed results to pull each run.
-# Generous buffer so we never miss newly indexed papers between runs.
-RETMAX = 50
-QUERY = (
-    '"Christopher T Whitlow"[Author] OR '
-    '"Christopher Whitlow"[Author] OR '
-    '"Whitlow CT"[Author] OR '
-    '"Whitlow C"[Author]'
-)
+
+# Rolling window: only keep papers published in the last N years.
+YEARS_BACK = 5
+
+# Common institutional filter. Applied inside each non-Whitlow PubMed query
+# (Whitlow's ``Whitlow CT`` + ORCID combo is already precise enough that
+# a query-time filter would just miss preprints without affiliation data).
+AFFIL_FILTER = '(Wake Forest[Affiliation] OR Yale[Affiliation])'
+
+# Post-fetch institutional check: every paper must have "Wake Forest" or
+# "Yale" somewhere in its parsed affiliations. Papers with no affiliation
+# data at all (typically bioRxiv / medRxiv preprints, which PubMed does
+# not ingest affiliations for) bypass this check.
+AFFIL_RE = re.compile(r"wake\s*forest|yale", re.IGNORECASE)
+
+# Per-member PubMed queries + an author-name regex that the parsed author
+# list must match for the paper to be retained. The regex is the last line
+# of defense against same-initial collisions that slip through PubMed's
+# normalization (e.g. "Lyu Q" matching both "Qing Lyu" and "Qiang Lyu",
+# or papers that match an affiliation but where the target author isn't
+# actually on the byline).
+#
+# Regexes are matched case-insensitively against each raw author string
+# from the PubMed record (which can be either "C T Whitlow" or
+# "Christopher T Whitlow" depending on what the journal provided).
+MEMBERS: list[dict[str, str]] = [
+    {
+        "name": "Christopher Whitlow",
+        "query": "Whitlow CT[Author] OR 0000-0003-2392-8293[AUID]",
+        # Whitlow CT query already excludes "Clysha Whitlow", so a plain
+        # last-name match is safe here and catches both "C Whitlow" and
+        # "Christopher T Whitlow" renderings.
+        "author_regex": r"\bwhitlow\b",
+    },
+    {
+        "name": "Qing Lyu",
+        "query": f"(Lyu Q[Author] OR 0000-0002-9824-0170[AUID]) AND {AFFIL_FILTER}",
+        # Require the given name "Qing" to exclude "Qiang Lyu" namesakes.
+        "author_regex": r"\bqing\b.*\blyu\b|\blyu\b.*\bqing\b",
+    },
+    {
+        "name": "Kevin Yu",
+        "query": f"Yu KC[Author] AND {AFFIL_FILTER}",
+        # Require "Kevin" alongside the "Yu" surname; excludes unrelated
+        # Yu K / Yu KC / Yu KM authors at Yale and Wake Forest.
+        "author_regex": r"\bkevin\b.*\byu\b",
+    },
+    {
+        "name": "Mohammad Kawas",
+        "query": f"Kawas MI[Author] AND {AFFIL_FILTER}",
+        "author_regex": r"\bmohammad\b.*\bkawas\b",
+    },
+]
+
+# Generous per-member cap; none of our members are close to this in 5 years.
+RETMAX = 500
 
 
 def clean(text: str) -> str:
@@ -41,11 +104,19 @@ def get_xml(url: str) -> ET.Element:
         return ET.fromstring(response.read())
 
 
-def search_pmids() -> list[str]:
+def date_cutoff() -> str:
+    """YYYY/MM/DD string for ``now - YEARS_BACK`` in UTC."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=365 * YEARS_BACK)
+    return cutoff.strftime("%Y/%m/%d")
+
+
+def search_pmids_for(query: str) -> list[str]:
+    """Run a single PubMed esearch query, returning a list of PMIDs."""
+    full = f"({query}) AND (\"{date_cutoff()}\"[PDAT] : \"3000\"[PDAT])"
     url = (
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
         f"?db=pubmed&retmode=json&sort=pub+date&retmax={RETMAX}"
-        f"&term={quote_plus(QUERY)}"
+        f"&term={quote_plus(full)}"
     )
     data = get_json(url)
     return data.get("esearchresult", {}).get("idlist", [])
@@ -67,18 +138,9 @@ def format_date(article: ET.Element) -> str:
     month_text = clean(pub_date.findtext("Month"))
     day = clean(pub_date.findtext("Day")) or "01"
     month_lookup = {
-        "jan": "01",
-        "feb": "02",
-        "mar": "03",
-        "apr": "04",
-        "may": "05",
-        "jun": "06",
-        "jul": "07",
-        "aug": "08",
-        "sep": "09",
-        "oct": "10",
-        "nov": "11",
-        "dec": "12",
+        "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+        "may": "05", "jun": "06", "jul": "07", "aug": "08",
+        "sep": "09", "oct": "10", "nov": "11", "dec": "12",
     }
     month = month_lookup.get(month_text[:3].lower(), "01") if month_text else "01"
     day = day.zfill(2)
@@ -92,7 +154,8 @@ def parse_article(pubmed_article: ET.Element) -> dict:
         return {}
 
     pmid = clean(medline.findtext("PMID"))
-    title = "".join(article.find("ArticleTitle").itertext()) if article.find("ArticleTitle") is not None else ""
+    title_node = article.find("ArticleTitle")
+    title = "".join(title_node.itertext()) if title_node is not None else ""
     journal = clean(article.findtext("Journal/Title"))
 
     authors = []
@@ -113,6 +176,13 @@ def parse_article(pubmed_article: ET.Element) -> dict:
             doi = clean(article_id.text or "")
             break
 
+    affiliations: list[str] = []
+    for aff in article.findall(".//AffiliationInfo/Affiliation"):
+        text = "".join(aff.itertext())
+        text = clean(text)
+        if text:
+            affiliations.append(text)
+
     citation = {
         "id": f"pubmed:{pmid}",
         "title": clean(title),
@@ -122,6 +192,8 @@ def parse_article(pubmed_article: ET.Element) -> dict:
         "link": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
         "plugin": "pubmed-direct.py",
         "file": "pubmed.yaml",
+        # Not written to YAML; used for post-fetch filtering below.
+        "_affiliations": affiliations,
     }
     if doi:
         citation["doi"] = doi
@@ -129,58 +201,25 @@ def parse_article(pubmed_article: ET.Element) -> dict:
 
 
 def fetch_citations(pmids: list[str]) -> list[dict]:
+    """Fetch article metadata in batches (PubMed efetch caps around 200)."""
     if not pmids:
         return []
-    url = (
-        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
-        f"?db=pubmed&retmode=xml&id={','.join(pmids)}"
-    )
-    root = get_xml(url)
-    citations = []
-    for article in root.findall("PubmedArticle"):
-        citation = parse_article(article)
-        if citation:
-            citations.append(citation)
 
-    pmid_order = {pmid: index for index, pmid in enumerate(pmids)}
-    citations.sort(key=lambda c: pmid_order.get(c["id"].split(":")[-1], 9999))
+    batch_size = 200
+    citations: list[dict] = []
+    for start in range(0, len(pmids), batch_size):
+        batch = pmids[start:start + batch_size]
+        url = (
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+            f"?db=pubmed&retmode=xml&id={','.join(batch)}"
+        )
+        root = get_xml(url)
+        for article in root.findall("PubmedArticle"):
+            parsed = parse_article(article)
+            if parsed:
+                citations.append(parsed)
+        time.sleep(0.4)
     return citations
-
-
-def load_existing() -> list[dict]:
-    if not OUTPUT.exists():
-        return []
-    try:
-        data = yaml.safe_load(OUTPUT.read_text(encoding="utf-8"))
-    except yaml.YAMLError:
-        return []
-    return data if isinstance(data, list) else []
-
-
-def merge_citations(existing: list[dict], fresh: list[dict]) -> tuple[list[dict], int]:
-    """Merge newly fetched citations into the existing set.
-
-    - Keyed by `id` (e.g. ``pubmed:12345``) so nothing is duplicated.
-    - Fresh entries overwrite existing ones for the same id (picks up
-      metadata corrections from PubMed).
-    - Sorted by date, newest first.
-    - Returns (merged_list, count_of_new_ids).
-    """
-    by_id: dict[str, dict] = {c.get("id"): c for c in existing if c.get("id")}
-    existing_ids = set(by_id.keys())
-
-    added = 0
-    for citation in fresh:
-        cid = citation.get("id")
-        if not cid:
-            continue
-        if cid not in existing_ids:
-            added += 1
-        by_id[cid] = citation
-
-    merged = list(by_id.values())
-    merged.sort(key=lambda c: c.get("date") or "", reverse=True)
-    return merged, added
 
 
 def write_yaml(citations: list[dict]) -> None:
@@ -189,16 +228,87 @@ def write_yaml(citations: list[dict]) -> None:
     OUTPUT.write_text("# DO NOT EDIT, GENERATED AUTOMATICALLY\n\n" + body, encoding="utf-8")
 
 
+def pmids_by_member() -> dict[str, set[str]]:
+    """Run every member's query and return ``{member_name: {pmids}}``."""
+    result: dict[str, set[str]] = {}
+    for member in MEMBERS:
+        pmids = search_pmids_for(member["query"])
+        result[member["name"]] = set(pmids)
+        print(f"  {member['name']:<22} {len(pmids):>3} candidate PMIDs")
+        time.sleep(0.4)
+    return result
+
+
+def is_author_confirmed(citation: dict, owner_names: set[str]) -> bool:
+    """True iff at least one owner's author-regex matches an author string."""
+    authors_blob = " | ".join(citation.get("authors", [])).lower()
+    for member in MEMBERS:
+        if member["name"] not in owner_names:
+            continue
+        if re.search(member["author_regex"], authors_blob, flags=re.IGNORECASE):
+            return True
+    return False
+
+
 def main() -> None:
-    pmids = search_pmids()
-    fresh = fetch_citations(pmids)
-    existing = load_existing()
-    merged, added = merge_citations(existing, fresh)
-    write_yaml(merged)
-    print(
-        f"Fetched {len(fresh)} papers from PubMed. "
-        f"{added} new, {len(merged)} total. Wrote to {OUTPUT}"
-    )
+    print(f"Fetching papers published since {date_cutoff()} for:")
+    for m in MEMBERS:
+        print(f"  - {m['name']}")
+    print()
+
+    per_member = pmids_by_member()
+    owners: dict[str, set[str]] = {}
+    for name, pmids in per_member.items():
+        for pmid in pmids:
+            owners.setdefault(pmid, set()).add(name)
+    all_pmids = list(owners.keys())
+    print(f"\nTotal unique PMIDs across members: {len(all_pmids)}")
+
+    citations = fetch_citations(all_pmids)
+
+    # Strip any paper that fell outside the window because PubMed returned an
+    # imprecise MedlineDate like "2020 Summer".
+    cutoff = date_cutoff().replace("/", "-")
+    citations = [c for c in citations if c.get("date", "") >= cutoff]
+
+    # Drop namesakes that passed the initial esearch but don't actually have
+    # one of our members in the byline.
+    confirmed, name_rejected = [], []
+    for c in citations:
+        pmid = c["id"].split(":", 1)[-1]
+        if is_author_confirmed(c, owners.get(pmid, set())):
+            confirmed.append(c)
+        else:
+            name_rejected.append(c)
+
+    if name_rejected:
+        print(f"\nDropping {len(name_rejected)} paper(s) with no matching author name:")
+        for c in name_rejected:
+            print(f"  - {c['id']}: {c['title'][:80]}")
+
+    # Institutional check: at least one affiliation must mention Wake Forest
+    # or Yale. Preprints / records with empty affiliation data get the
+    # benefit of the doubt (PubMed strips affiliations on bioRxiv records).
+    affiliated, aff_rejected = [], []
+    for c in confirmed:
+        affs = c.get("_affiliations") or []
+        if not affs or any(AFFIL_RE.search(a) for a in affs):
+            affiliated.append(c)
+        else:
+            aff_rejected.append(c)
+
+    if aff_rejected:
+        print(f"\nDropping {len(aff_rejected)} paper(s) with no Wake Forest / Yale affiliation:")
+        for c in aff_rejected:
+            print(f"  - {c['id']}: {c['title'][:80]}")
+
+    # Strip the private affiliations key before writing.
+    for c in affiliated:
+        c.pop("_affiliations", None)
+
+    affiliated.sort(key=lambda c: c.get("date") or "", reverse=True)
+    write_yaml(affiliated)
+    print(f"\nWrote {len(affiliated)} citations to {OUTPUT}")
 
 
 if __name__ == "__main__":
