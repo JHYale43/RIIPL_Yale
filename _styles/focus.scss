@@ -1,0 +1,106 @@
+---
+---
+
+/*
+  Styling for the Research Interests / Current Projects page.
+  Uses a responsive grid of uniform card tiles with a leading icon.
+*/
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin: 32px 0 48px;
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.focus-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 22px;
+  background: var(--background);
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  border-radius: 10px;
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.focus-card:hover {
+  border-color: color-mix(in srgb, currentColor 32%, transparent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.focus-card .focus-icon {
+  font-size: 1.75rem;
+  color: #00356b;
+  margin-bottom: 12px;
+}
+
+html[data-dark="true"] .focus-card .focus-icon {
+  color: #a8c5ea;
+}
+
+.focus-card h3 {
+  font-size: 1.1rem;
+  margin: 0 0 10px;
+  line-height: 1.25;
+}
+
+.focus-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: color-mix(in srgb, currentColor 78%, transparent);
+}
+
+.focus-card .focus-tags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.focus-card .focus-tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  color: color-mix(in srgb, currentColor 70%, transparent);
+  font-weight: 500;
+}
+
+.focus-intro {
+  max-width: 780px;
+  margin-bottom: 8px;
+}
+
+.focus-disclaimer {
+  margin-top: 36px;
+  padding: 14px 18px;
+  border-left: 3px solid #00356b;
+  background: color-mix(in srgb, currentColor 4%, transparent);
+  font-size: 0.9rem;
+  color: color-mix(in srgb, currentColor 70%, transparent);
+  border-radius: 0 6px 6px 0;
+}
+
+html[data-dark="true"] .focus-disclaimer {
+  border-left-color: #a8c5ea;
+}
