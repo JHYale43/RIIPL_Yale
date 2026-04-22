@@ -14,6 +14,15 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Rebuild and redeploy automatically whenever the citation-update job
+  # finishes (e.g. the daily cron picked up new Whitlow papers). Commits
+  # pushed by GITHUB_TOKEN don't trigger normal `push` workflows, so this
+  # is what actually ships scheduled updates to the live site.
+  workflow_run:
+    workflows: ["update-citations"]
+    types: [completed]
+    branches: [main]
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read

@@ -9,9 +9,17 @@ nav:
 
 {% include section.html %}
 
-## Latest Research
+## Publications
 
-{% assign latest_citations = site.data.citations | sort: "date" | reverse | slice: 0, 10 %}
-{% for citation in latest_citations %}
-  {% include citation.html title=citation.title authors=citation.authors publisher=citation.publisher date=citation.date id=citation.id link=citation.link style="rich" %}
+{% assign sorted_citations = site.data.citations | sort: "date" | reverse %}
+{% assign current_year = "" %}
+{% for citation in sorted_citations -%}
+{% assign citation_year = citation.date | slice: 0, 4 -%}
+{% if citation_year != current_year %}
+
+### {{ citation_year }}
+
+{% assign current_year = citation_year -%}
+{% endif -%}
+{% include citation.html title=citation.title authors=citation.authors publisher=citation.publisher date=citation.date id=citation.id link=citation.link style="rich" %}
 {% endfor %}

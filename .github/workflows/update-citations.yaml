@@ -2,7 +2,11 @@ name: update-citations
 run-name: update citations
 
 on:
-  # run when called from another workflow
+  # Run automatically every day at 06:00 UTC to pick up newly indexed papers.
+  schedule:
+    - cron: "0 6 * * *"
+
+  # Run when called from another workflow.
   workflow_call:
     inputs:
       open-pr:
@@ -11,7 +15,7 @@ on:
       changed:
         value: ${{ jobs.update-citations.outputs.changed }}
 
-  # run if user manually requests it
+  # Run on manual request from the Actions tab.
   workflow_dispatch:
 
 permissions:
@@ -34,8 +38,10 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          # For pull_request events, check out the PR head. For scheduled and
+          # manual runs, fall back to the default branch.
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Setup Python
         uses: actions/setup-python@v5

@@ -16,7 +16,9 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_data" / "citations.yaml"
-RETMAX = 10
+# How many of the most recent PubMed results to pull each run.
+# Generous buffer so we never miss newly indexed papers between runs.
+RETMAX = 50
 QUERY = (
     '"Christopher T Whitlow"[Author] OR '
     '"Christopher Whitlow"[Author] OR '
@@ -145,6 +147,42 @@ def fetch_citations(pmids: list[str]) -> list[dict]:
     return citations
 
 
+def load_existing() -> list[dict]:
+    if not OUTPUT.exists():
+        return []
+    try:
+        data = yaml.safe_load(OUTPUT.read_text(encoding="utf-8"))
+    except yaml.YAMLError:
+        return []
+    return data if isinstance(data, list) else []
+
+
+def merge_citations(existing: list[dict], fresh: list[dict]) -> tuple[list[dict], int]:
+    """Merge newly fetched citations into the existing set.
+
+    - Keyed by `id` (e.g. ``pubmed:12345``) so nothing is duplicated.
+    - Fresh entries overwrite existing ones for the same id (picks up
+      metadata corrections from PubMed).
+    - Sorted by date, newest first.
+    - Returns (merged_list, count_of_new_ids).
+    """
+    by_id: dict[str, dict] = {c.get("id"): c for c in existing if c.get("id")}
+    existing_ids = set(by_id.keys())
+
+    added = 0
+    for citation in fresh:
+        cid = citation.get("id")
+        if not cid:
+            continue
+        if cid not in existing_ids:
+            added += 1
+        by_id[cid] = citation
+
+    merged = list(by_id.values())
+    merged.sort(key=lambda c: c.get("date") or "", reverse=True)
+    return merged, added
+
+
 def write_yaml(citations: list[dict]) -> None:
     yaml.Dumper.ignore_aliases = lambda *args: True
     body = yaml.dump(citations, default_flow_style=False, sort_keys=False, allow_unicode=True)
@@ -153,9 +191,14 @@ def write_yaml(citations: list[dict]) -> None:
 
 def main() -> None:
     pmids = search_pmids()
-    citations = fetch_citations(pmids)
-    write_yaml(citations)
-    print(f"Wrote {len(citations)} PubMed citations to {OUTPUT}")
+    fresh = fetch_citations(pmids)
+    existing = load_existing()
+    merged, added = merge_citations(existing, fresh)
+    write_yaml(merged)
+    print(
+        f"Fetched {len(fresh)} papers from PubMed. "
+        f"{added} new, {len(merged)} total. Wrote to {OUTPUT}"
+    )
 
 
 if __name__ == "__main__":

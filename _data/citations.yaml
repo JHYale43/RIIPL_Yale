@@ -1,5 +1,67 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42000011
+  title: 'Industry-Sponsored Research Payments in Radiology: A National Open Payments
+    Analysis.'
+  authors:
+  - Ajay Malhotra
+  - Dheeman Futela
+  - Raj Moily
+  - Keervani Kandala
+  - Mihir Khunte
+  - Seyedmehdi Payabvash
+  - Dhairya A Lakhani
+  - Marco Colasurdo
+  - Dheeraj Gandhi
+  - Max Wintermark
+  - Cristopher Whitlow
+  publisher: 'Journal of the American College of Radiology : JACR'
+  date: '2026-04-16'
+  link: https://pubmed.ncbi.nlm.nih.gov/42000011/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.jacr.2026.04.009
+- id: pubmed:41967657
+  title: 'The Evolving United States Radiologist Pipeline: Trends in Residency Positions,
+    Resident Workforce, and Practicing radiologists per unit population.'
+  authors:
+  - Ajay Malhotra
+  - Keervani Kandala
+  - Dheeman Futela
+  - Seyedmehdi Payabvash
+  - Dhairya A Lakhani
+  - Dheeraj Gandhi
+  - Cristopher Whitlow
+  - Richard Duszak
+  publisher: 'Journal of the American College of Radiology : JACR'
+  date: '2026-04-10'
+  link: https://pubmed.ncbi.nlm.nih.gov/41967657/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.jacr.2026.04.005
+- id: pubmed:41851960
+  title: Synthesis, Radiochemistry, and Preclinical Assessment of the First GPR39
+    PET Imaging Agent.
+  authors:
+  - Bhuvanachandra Bhoopal
+  - Krishna Kumar Gollapelli
+  - Naresh Damuka
+  - Ivan Krizan
+  - Mack Miller
+  - Ryan W Fitzgerald
+  - Nishka Amesar
+  - Dundappa Mumbaraddi
+  - Dongqin Zhu
+  - Rita Cervera-Juanes
+  - Pooja Jadiya
+  - Christopher T Whitlow
+  - Kiran K Solingapuram Sai
+  publisher: Journal of medicinal chemistry
+  date: '2026-04-09'
+  link: https://pubmed.ncbi.nlm.nih.gov/41851960/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1021/acs.jmedchem.5c03351
 - id: pubmed:41978176
   title: Dietary Pattern-Induced Gut Microbiota Differences Are Associated with White
     Matter Volume Changes in Middle-Aged Female Macaques.
@@ -20,51 +82,10 @@
   - Carol A Shively
   publisher: Nutrients
   date: '2026-03-31'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41978176
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41978176/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:41967657
-  title: 'The Evolving United States Radiologist Pipeline: Trends in Residency Positions,
-    Resident Workforce, and Practicing radiologists per unit population.'
-  authors:
-  - Ajay Malhotra
-  - Keervani Kandala
-  - Dheeman Futela
-  - Seyedmehdi Payabvash
-  - Dhairya A Lakhani
-  - Dheeraj Gandhi
-  - Cristopher Whitlow
-  - Richard Duszak
-  publisher: 'Journal of the American College of Radiology : JACR'
-  date: '2026-04-10'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41967657
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:41851960
-  title: Synthesis, Radiochemistry, and Preclinical Assessment of the First GPR39
-    PET Imaging Agent.
-  authors:
-  - Bhuvanachandra Bhoopal
-  - Krishna Kumar Gollapelli
-  - Naresh Damuka
-  - Ivan Krizan
-  - Mack Miller
-  - Ryan W Fitzgerald
-  - Nishka Amesar
-  - Dundappa Mumbaraddi
-  - Dongqin Zhu
-  - Rita Cervera-Juanes
-  - Pooja Jadiya
-  - Christopher T Whitlow
-  - Kiran K Solingapuram Sai
-  publisher: Journal of medicinal chemistry
-  date: '2026-03-18'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41851960
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.3390/nu18071124
 - id: pubmed:41791836
   title: 'Current State of Artificial Intelligence Adoption and Implementation in
     Neuroradiology Departments: Insights from a U.S. National Survey.'
@@ -88,10 +109,10 @@
   - Christopher Whitlow
   publisher: AJNR. American journal of neuroradiology
   date: '2026-03-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41791836
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41791836/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3174/ajnr.A9279
 - id: pubmed:41760384
   title: 'Impact of Imaging Acquisition and Protocol Variability on Artificial Intelligence
     Model Performance: A Secondary Analysis of the ASFNR Artificial Intelligence Competition.'
@@ -123,10 +144,10 @@
   - Max Wintermark
   publisher: AJNR. American journal of neuroradiology
   date: '2026-02-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41760384
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41760384/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3174/ajnr.A9266
 - id: pubmed:41728808
   title: 'Changing our approach: Using an integrated, place-based methodology in community
     violence research.'
@@ -136,10 +157,30 @@
   - Ryan P Kilmer
   publisher: American journal of community psychology
   date: '2026-02-23'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41728808
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41728808/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1002/ajcp.70041
+- id: pubmed:41623461
+  title: Reduced cortical excitability is associated with head impact severity and
+    cognitive symptoms in adolescent football players.
+  authors:
+  - Kevin C Yu
+  - Alex I Wiesman
+  - Elizabeth M Davenport
+  - Laura A Flashman
+  - Jillian E Urban
+  - Srikantan S Nagarajan
+  - Kiran K Solingpuram Sai
+  - Joel D Stitzel
+  - Joseph A Maldjian
+  - Christopher T Whitlow
+  publisher: iScience
+  date: '2026-02-20'
+  link: https://pubmed.ncbi.nlm.nih.gov/41623461/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.isci.2025.114575
 - id: pubmed:41709584
   title: 'Understanding the Neural Connectivity Changes of Repetitive Head Impacts
     in Youth Football Players: A Cross-Sectional MEG Analysis.'
@@ -158,10 +199,10 @@
   - Elizabeth M Davenport
   publisher: Brain connectivity
   date: '2026-02-18'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41709584
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41709584/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1177/21580014261425220
 - id: pubmed:41690812
   title: Trends in Neuroradiology Fellowship Positions and Match Outcomes in the United
     States, 2009 to 2025.
@@ -178,10 +219,10 @@
   - Max Wintermark
   publisher: AJNR. American journal of neuroradiology
   date: '2026-02-14'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41690812
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41690812/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3174/ajnr.A9233
 - id: pubmed:41690557
   title: Total-body Irradiation Reduces Cerebrovascular Reactivity in Rhesus Macaques
     (Macaca mulatta).
@@ -199,10 +240,55 @@
   - J Mark Cline
   publisher: International journal of radiation oncology, biology, physics
   date: '2026-02-12'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41690557
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41690557/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1016/j.ijrobp.2026.01.043
+- id: pubmed:40780879
+  title: 'American Society of Neuroradiology Consensus Statement: Integrating Neuro-PET
+    Interpretation into Neuroradiology Training and Practice.'
+  authors:
+  - Jana Ivanidze
+  - Ana M Franceschi
+  - Max Wintermark
+  - John E Jordan
+  - Mariam Aboian
+  - Jim C Anderson
+  - Reza Assadsangabi
+  - Marc Daniel Benayoun
+  - Tammie L Benzinger
+  - Gloria Chia-Yi Chiang
+  - Edward J Ebani
+  - Akinrinola Famuyide
+  - Norbert Galldiks
+  - Leland S Hu
+  - Derek R Johnson
+  - Jason M Johnson
+  - Alexander Khalaf
+  - Ashley Knight-Greenfield
+  - Philipp Lohmann
+  - Farshad Moradi
+  - Ali Nabavizadeh
+  - Joshua P Nickerson
+  - Gloria J Guzmán Pérez-Carrillo
+  - Nadya Pyatigorskaya
+  - Michelle Roytman
+  - Timothy Shepherd
+  - Gagandeep Singh
+  - Jay Starkey
+  - Michael C Veronesi
+  - Christopher T Whitlow
+  - Sema Yildiz
+  - Michael Zeineh
+  - Greg Zaharchuk
+  - Prashant Raghavan
+  - Ramon Francisco Barajas
+  publisher: AJNR. American journal of neuroradiology
+  date: '2026-02-03'
+  link: https://pubmed.ncbi.nlm.nih.gov/40780879/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A8959
 - id: pubmed:41630612
   title: 'Plasma and neuroimaging biomarkers of small vessel disease and Alzheimer''s
     disease in a diverse cohort: MESA.'
@@ -211,7 +297,7 @@
   - Courtney L Sutphen
   - Jordan Tanley
   - Fernando Gonzalez-Ortiz
-  - "Przemys\u0142aw R Kac"
+  - Przemysław R Kac
   - Mohamad Habes
   - Susan R Heckbert
   - Nicholas J Ashton
@@ -232,32 +318,13 @@
   - Timothy M Hughes
   publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
   date: '2026-02-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41630612
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41630612/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:41623461
-  title: Reduced cortical excitability is associated with head impact severity and
-    cognitive symptoms in adolescent football players.
-  authors:
-  - Kevin C Yu
-  - Alex I Wiesman
-  - Elizabeth M Davenport
-  - Laura A Flashman
-  - Jillian E Urban
-  - Srikantan S Nagarajan
-  - Kiran K Solingpuram Sai
-  - Joel D Stitzel
-  - Joseph A Maldjian
-  - Christopher T Whitlow
-  publisher: iScience
-  date: '2025-12-26'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41623461
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.1002/alz.71131
 - id: pubmed:41501910
-  title: "PET imaging utility of a novel A\u03B2-tracking PET radiotracer, ["
+  title: PET imaging utility of a novel Aβ-tracking PET radiotracer, [18F]FC119S in
+    aged vervet monkeys.
   authors:
   - Bhuvanachandra Bhoopal
   - Brett M Frye
@@ -279,38 +346,10 @@
   - Kiran K Solingapuram Sai
   publisher: Journal of translational medicine
   date: '2026-01-08'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41501910
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41501910/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:41409187
-  title: External validation of a genomic signature for oligometastatic non-small
-    cell lung cancer.
-  authors:
-  - Ariel R Choi
-  - Ralph B D'Agostino
-  - Claire M Lanier
-  - Sarah Glynn
-  - Patrick Young
-  - Michael K Farris
-  - Mohammed Abdulhaleem
-  - Yuezhu Wang
-  - Margaret R Smith
-  - Jimmy Ruiz
-  - Thomas W Lycan
-  - W Jeffrey Petty
-  - Christina K Cramer
-  - Wencheng Li
-  - Jing Su
-  - Christopher T Whitlow
-  - Fei Xing
-  - Michael D Chan
-  publisher: Journal of radiosurgery and SBRT
-  date: '2025-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41409187
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.1186/s12967-025-07642-5
 - id: pubmed:41397892
   title: Comparative Analysis of AI-based Quantification vs. Visual Rating of Enlarged
     Perivascular Spaces in the MESA Cohort.
@@ -333,10 +372,10 @@
   - Mohamad Habes
   publisher: AJNR. American journal of neuroradiology
   date: '2025-12-15'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41397892
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41397892/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3174/ajnr.A9129
 - id: pubmed:41291518
   title: A large scale multi-dataset investigation of brain metastases distribution
     based on primary cancer type.
@@ -351,16 +390,16 @@
   - Christopher T Whitlow
   publisher: BMC cancer
   date: '2025-11-25'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41291518
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41291518/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1186/s12885-025-15222-5
 - id: pubmed:41145886
   title: Longitudinal measures of monkey brain structure and activity through adolescence
     predict cognitive maturation.
   authors:
   - Junda Zhu
-  - "Cl\xE9ment M Garin"
+  - Clément M Garin
   - Xue-Lian Qi
   - Anna Machado
   - Zhengyang Wang
@@ -374,11 +413,52 @@
   - Beatriz Luna
   - Christos Constantinidis
   publisher: Nature neuroscience
-  date: '2025-10-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41145886
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/41145886/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1038/s41593-025-02076-0
+- id: pubmed:40888012
+  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
+  authors:
+  - Ihtsham U Haq
+  - Kristina Simonyan
+  - Eleonora Napoli
+  - Laurie J Ozelius
+  - Beverly M Snively
+  - Christopher T Whitlow
+  - Kathleen J Sweadner
+  - Allison Brashear
+  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/mds.30320
+- id: pubmed:40717441
+  title: The differential relationship between white matter cerebrovascular perfusion
+    and microstructure between normal cognition and mild cognitive impairment.
+  authors:
+  - Donghoon Kim
+  - Sarah Yoon
+  - Timothy M Hughes
+  - Yu-Chien Wu
+  - Danielle Harvey
+  - Megan E Lipford
+  - Samuel N Lockhart
+  - Suzanne Craft
+  - Laura D Baker
+  - Christopher T Whitlow
+  - Stephanie E Okonmah-Obazee
+  - Christina E Hugenschmidt
+  - Matthew Bobinski
+  - Youngkyoo Jung
+  publisher: 'Journal of Alzheimer''s disease : JAD'
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40717441/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1177/13872877251360740
 - id: pubmed:41081453
   title: Treatment of glioblastoma with tumor-specific amplitude-modulated radiofrequency
     electromagnetic fields.
@@ -411,10 +491,10 @@
   - Boris C Pasche
   publisher: Oncotarget
   date: '2025-10-13'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41081453
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41081453/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.18632/oncotarget.28770
 - id: pubmed:41057918
   title: A phase 2A/B randomized trial of metabolic modulators intranasal insulin
     and empagliflozin for MCI and early AD.
@@ -433,10 +513,10 @@
   - Suzanne Craft
   publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
   date: '2025-10-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41057918
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41057918/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1002/alz.70704
 - id: pubmed:41008824
   title: Predicting Immunotherapy-Induced Pneumonitis Based on Chest CT and Non-Imaging
     Data.
@@ -448,137 +528,10 @@
   - Christopher T Whitlow
   publisher: Cancers
   date: '2025-09-12'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/41008824
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/41008824/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:40888012
-  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
-  authors:
-  - Ihtsham U Haq
-  - Kristina Simonyan
-  - Eleonora Napoli
-  - Laurie J Ozelius
-  - Beverly M Snively
-  - Christopher T Whitlow
-  - Kathleen J Sweadner
-  - Allison Brashear
-  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
-  date: '2025-09-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40888012
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40780879
-  title: 'American Society of Neuroradiology Consensus Statement: Integrating Neuro-PET
-    Interpretation into Neuroradiology Training and Practice.'
-  authors:
-  - Jana Ivanidze
-  - Ana M Franceschi
-  - Max Wintermark
-  - John E Jordan
-  - Mariam Aboian
-  - Jim C Anderson
-  - Reza Assadsangabi
-  - Marc Daniel Benayoun
-  - Tammie L Benzinger
-  - Gloria Chia-Yi Chiang
-  - Edward J Ebani
-  - Akinrinola Famuyide
-  - Norbert Galldiks
-  - Leland S Hu
-  - Derek R Johnson
-  - Jason M Johnson
-  - Alexander Khalaf
-  - Ashley Knight-Greenfield
-  - Philipp Lohmann
-  - Farshad Moradi
-  - Ali Nabavizadeh
-  - Joshua P Nickerson
-  - "Gloria J Guzm\xE1n P\xE9rez-Carrillo"
-  - Nadya Pyatigorskaya
-  - Michelle Roytman
-  - Timothy Shepherd
-  - Gagandeep Singh
-  - Jay Starkey
-  - Michael C Veronesi
-  - Christopher T Whitlow
-  - Sema Yildiz
-  - Michael Zeineh
-  - Greg Zaharchuk
-  - Prashant Raghavan
-  - Ramon Francisco Barajas
-  publisher: AJNR. American journal of neuroradiology
-  date: '2026-02-03'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40780879
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40717441
-  title: The differential relationship between white matter cerebrovascular perfusion
-    and microstructure between normal cognition and mild cognitive impairment.
-  authors:
-  - Donghoon Kim
-  - Sarah Yoon
-  - Timothy M Hughes
-  - Yu-Chien Wu
-  - Danielle Harvey
-  - Megan E Lipford
-  - Samuel N Lockhart
-  - Suzanne Craft
-  - Laura D Baker
-  - Christopher T Whitlow
-  - Stephanie E Okonmah-Obazee
-  - Christina E Hugenschmidt
-  - Matthew Bobinski
-  - Youngkyoo Jung
-  publisher: 'Journal of Alzheimer''s disease : JAD'
-  date: '2025-07-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40717441
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40639970
-  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
-    Therapies.
-  authors:
-  - Ana M Franceschi
-  - Graham Keir
-  - Tammie L S Benzinger
-  - Petrice M Cogswell
-  - Farzana Z Ali
-  - Jeffrey R Petrella
-  - Jeffrey W Prescott
-  - Christopher T Whitlow
-  - Greg Zaharchuk
-  - Jason W Allen
-  publisher: AJNR. American journal of neuroradiology
-  date: '2025-08-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40639970
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40613474
-  title: Evaluation of plasma p-tau217 for detecting amyloid pathology in a heterogeneous
-    community-based cohort.
-  authors:
-  - Marc D Rudolph
-  - Courtney L Sutphen
-  - Thomas C Register
-  - Samuel N Lockhart
-  - Melissa M Rundle
-  - Timothy M Hughes
-  - James R Bateman
-  - Kiran K Solingapuram Sai
-  - Christopher T Whitlow
-  - Suzanne Craft
-  - Michelle M Mielke
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2025-07-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40613474
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.3390/cancers17182980
 - id: pubmed:40576634
   title: The Translational Research Program in Cancer Differences across Populations.
   authors:
@@ -600,7 +553,7 @@
   - Scott D LaBrie
   - Meredith A Lakey
   - MingGang Lin
-  - "Nicole C Loro\xF1a"
+  - Nicole C Loroña
   - Grace A Maresh
   - Marc Matrana
   - Jonathan D Mizrahi
@@ -625,76 +578,31 @@
     American Association for Cancer Research, cosponsored by the American Society
     of Preventive Oncology'
   date: '2025-09-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40576634
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/40576634/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:40563624
-  title: MRI-Based Radiomics Ensemble Model for Predicting Radiation Necrosis in Brain
-    Metastasis Patients Treated with Stereotactic Radiosurgery and Immunotherapy.
+  doi: 10.1158/1055-9965.EPI-24-1711
+- id: pubmed:40639970
+  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
+    Therapies.
   authors:
-  - Yijun Chen
-  - Corbin Helis
-  - Christina Cramer
-  - Michael Munley
-  - Ariel Raimundo Choi
-  - Josh Tan
-  - Fei Xing
-  - Qing Lyu
-  - Christopher Whitlow
-  - Jeffrey Willey
-  - Michael Chan
-  - Yuming Jiang
-  publisher: Cancers
-  date: '2025-06-13'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40563624
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40470227
-  title: Effects of Diminished Cerebrospinal Fluid Flow in the Spinal Canal on Amyloid
-    Pathophysiology in Vervet Monkeys.
-  authors:
-  - Jeongchul Kim
-  - Megan E Lipford
-  - Richard A Barcus
-  - Brett M Frye
-  - Hongyu Yuan
-  - Qing Lyu
-  - Jeremy P Hudson
-  - Samuel N Lockhart
-  - Courtney L Sutphen
-  - Thomas C Register
-  - Michelle M Mielke
-  - Suzanne Craft
-  - Carol A Shively
+  - Ana M Franceschi
+  - Graham Keir
+  - Tammie L S Benzinger
+  - Petrice M Cogswell
+  - Farzana Z Ali
+  - Jeffrey R Petrella
+  - Jeffrey W Prescott
   - Christopher T Whitlow
-  publisher: Research square
-  date: '2025-05-13'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40470227
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  - Greg Zaharchuk
+  - Jason W Allen
+  - American Society of Functional Neuroradiology (ASFNR)
+  publisher: AJNR. American journal of neuroradiology
+  date: '2025-08-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40639970/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:40438303
-  title: 'Radiation-induced brain injury in non-human primates: A dual tracer PET
-    study with ['
-  authors:
-  - Naresh Damuka
-  - George W Schaaf
-  - Mack Miller
-  - Caleb Bradley
-  - Bhuvanachandra Bhoopal
-  - Ivan Krizan
-  - Krishna K Gollapelli
-  - Christopher T Whitlow
-  - J Mark Cline
-  - Kiran K Solingapuram Sai
-  publisher: Neuroimage. Reports
-  date: '2025-02-19'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40438303
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.3174/ajnr.A8738
 - id: pubmed:40329815
   title: Correlating Magnetoencephalography, Diffusion Kurtosis Imaging, Biomechanics,
     and Neuropsychology in American Youth Football.
@@ -716,11 +624,78 @@
   - Joseph A Maldjian
   - Elizabeth M Davenport
   publisher: Journal of neurotrauma
-  date: '2025-05-07'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40329815
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  date: '2025-08-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40329815/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1089/neu.2024.0222
+- id: pubmed:40613474
+  title: Evaluation of plasma p-tau217 for detecting amyloid pathology in a heterogeneous
+    community-based cohort.
+  authors:
+  - Marc D Rudolph
+  - Courtney L Sutphen
+  - Thomas C Register
+  - Samuel N Lockhart
+  - Melissa M Rundle
+  - Timothy M Hughes
+  - James R Bateman
+  - Kiran K Solingapuram Sai
+  - Christopher T Whitlow
+  - Suzanne Craft
+  - Michelle M Mielke
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2025-07-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40613474/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.70426
+- id: pubmed:40563624
+  title: MRI-Based Radiomics Ensemble Model for Predicting Radiation Necrosis in Brain
+    Metastasis Patients Treated with Stereotactic Radiosurgery and Immunotherapy.
+  authors:
+  - Yijun Chen
+  - Corbin Helis
+  - Christina Cramer
+  - Michael Munley
+  - Ariel Raimundo Choi
+  - Josh Tan
+  - Fei Xing
+  - Qing Lyu
+  - Christopher Whitlow
+  - Jeffrey Willey
+  - Michael Chan
+  - Yuming Jiang
+  publisher: Cancers
+  date: '2025-06-13'
+  link: https://pubmed.ncbi.nlm.nih.gov/40563624/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3390/cancers17121974
+- id: pubmed:40470227
+  title: Effects of Diminished Cerebrospinal Fluid Flow in the Spinal Canal on Amyloid
+    Pathophysiology in Vervet Monkeys.
+  authors:
+  - Jeongchul Kim
+  - Megan E Lipford
+  - Richard A Barcus
+  - Brett M Frye
+  - Hongyu Yuan
+  - Qing Lyu
+  - Jeremy P Hudson
+  - Samuel N Lockhart
+  - Courtney L Sutphen
+  - Thomas C Register
+  - Michelle M Mielke
+  - Suzanne Craft
+  - Carol A Shively
+  - Christopher T Whitlow
+  publisher: Research square
+  date: '2025-05-13'
+  link: https://pubmed.ncbi.nlm.nih.gov/40470227/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.21203/rs.3.rs-6551242/v1
 - id: pubmed:40149325
   title: 'Genomic Signature for Initial Brain Metastasis Velocity (iBMV) in Non-Small-Cell
     Lung Cancer Patients: The Elusive Biomarker to Predict the Development of Brain
@@ -750,10 +725,10 @@
   - Corbin A Helis
   publisher: Cancers
   date: '2025-03-15'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40149325
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/40149325/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3390/cancers17060991
 - id: pubmed:40099834
   title: 'A role for the insula in establishing social dominance: structural and functional
     MRI studies in nonhuman primates.'
@@ -770,10 +745,10 @@
   - Christopher T Whitlow
   publisher: 'Cerebral cortex (New York, N.Y. : 1991)'
   date: '2025-03-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40099834
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/40099834/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1093/cercor/bhaf043
 - id: pubmed:40048219
   title: 'Examining the association between perceived racism and sleep quality: The
     mediating role of rumination.'
@@ -787,6 +762,26 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:40438303
+  title: 'Radiation-induced brain injury in non-human primates: A dual tracer PET
+    study with [11C]MPC-6827 and [11C]PiB.'
+  authors:
+  - Naresh Damuka
+  - George W Schaaf
+  - Mack Miller
+  - Caleb Bradley
+  - Bhuvanachandra Bhoopal
+  - Ivan Krizan
+  - Krishna K Gollapelli
+  - Christopher T Whitlow
+  - J Mark Cline
+  - Kiran K Solingapuram Sai
+  publisher: Neuroimage. Reports
+  date: '2025-03-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40438303/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.ynirp.2025.100245
 - id: pubmed:39990571
   title: 'Plasma and neuroimaging biomarkers of small vessel disease and Alzheimer''s
     disease in a diverse cohort: MESA.'
@@ -795,7 +790,7 @@
   - Courtney L Sutphen
   - Jordan Tanley
   - Fernando Gonzalez-Ortiz
-  - "Przemys\u0142aw R Kac"
+  - Przemysław R Kac
   - Mohamad Habes
   - Susan R Heckbert
   - Nicholas J Ashton
@@ -815,10 +810,28 @@
   - Timothy M Hughes
   publisher: 'medRxiv : the preprint server for health sciences'
   date: '2025-02-14'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39990571
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/39990571/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1101/2025.02.11.25322109
+- id: pubmed:39934138
+  title: Medical multimodal multitask foundation model for lung cancer screening.
+  authors:
+  - Chuang Niu
+  - Qing Lyu
+  - Christopher D Carothers
+  - Parisa Kaviani
+  - Josh Tan
+  - Pingkun Yan
+  - Mannudeep K Kalra
+  - Christopher T Whitlow
+  - Ge Wang
+  publisher: Nature communications
+  date: '2025-02-11'
+  link: https://pubmed.ncbi.nlm.nih.gov/39934138/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1038/s41467-025-56822-w
 - id: pubmed:39974029
   title: Evaluation of plasma p-tau217 for detecting amyloid pathology in a diverse
     and heterogeneous community-based cohort.
@@ -836,192 +849,10 @@
   - Michelle M Mielke
   publisher: 'medRxiv : the preprint server for health sciences'
   date: '2025-01-20'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39974029
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/39974029/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:39934138
-  title: Medical multimodal multitask foundation model for lung cancer screening.
-  authors:
-  - Chuang Niu
-  - Qing Lyu
-  - Christopher D Carothers
-  - Parisa Kaviani
-  - Josh Tan
-  - Pingkun Yan
-  - Mannudeep K Kalra
-  - Christopher T Whitlow
-  - Ge Wang
-  publisher: Nature communications
-  date: '2025-02-11'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39934138
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39803742
-  title: Utilizing Quantitative Analysis of CSF Volume from Clinical T1-Weighted MRI
-    to Predict Thrombectomy Outcomes.
-  authors:
-  - Mohammad I Kawas
-  - Ahmad Shamulzai
-  - Kyle M Atcheson
-  - Alex C Horn
-  - Renate Ma
-  - Carol Kittel
-  - Brian Curry
-  - Megan Lipford
-  - Jeongchul Kim
-  - Kiran K Solingapuram Sai
-  - Stacey Q Wolfe
-  - Christopher T Whitlow
-  publisher: 'Journal of neuroimaging : official journal of the American Society of
-    Neuroimaging'
-  date: '2025-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39803742
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39731855
-  title: Corrigendum to-"Ca
-  authors:
-  - Sambad Sharma
-  - Shih-Ying Wu
-  - Hugo Jimenez
-  - Fei Xing
-  - Dongqin Zhu
-  - Yin Liu
-  - Kerui Wu
-  - Abhishek Tyagi
-  - Dan Zhao
-  - Hui-Wen Lo
-  - Linda Metheny-Barlow
-  - Peiqing Sun
-  - Daniel J Bourland
-  - Michael D Chan
-  - Alexandra Thomas
-  - Alexandre Barbault
-  - Ralph B D'Agostino
-  - Christopher T Whitlow
-  - Volker Kirchner
-  - Carl Blackman
-  - Boris Pasche
-  - Kounosuke Watabe
-  publisher: EBioMedicine
-  date: '2024-12-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39731855
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39399019
-  title: Reduced Cortical Excitability is Associated with Cognitive Symptoms in Concussed
-    Adolescent Football Players.
-  authors:
-  - Kevin C Yu
-  - Alex I Wiesman
-  - Elizabeth Davenport
-  - Laura A Flashman
-  - Jillian Urban
-  - Srikantan S Nagarajan
-  - Kiran Solingpuram Sai
-  - Joel Stitzel
-  - Joseph A Maldjian
-  - Christopher T Whitlow
-  publisher: 'medRxiv : the preprint server for health sciences'
-  date: '2024-11-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39399019
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39355617
-  title: Genomic signature for oligometastatic disease in non-small cell lung cancer
-    patients with brain metastases.
-  authors:
-  - Ariel R Choi
-  - Ralph B D'Agostino
-  - Michael K Farris
-  - Mohammed Abdulhaleem
-  - John C Hunting
-  - Yuezhu Wang
-  - Margaret R Smith
-  - Jimmy Ruiz
-  - Thomas W Lycan
-  - W Jeffrey Petty
-  - Christina K Cramer
-  - Stephen B Tatter
-  - Adrian W Laxton
-  - Jaclyn J White
-  - Wencheng Li
-  - Jing Su
-  - Christopher Whitlow
-  - Fei Xing
-  - Michael D Chan
-  publisher: Frontiers in endocrinology
-  date: '2024-09-17'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39355617
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39291940
-  title: 'ChatGPT and Large Language Models in Radiology: Perspectives From the Field.'
-  authors:
-  - Manisha Bahl
-  - Patricia Balthazar
-  - Melissa A Davis
-  - Mina S Makary
-  - Sree Harsha Tirumani
-  - Christopher T Whitlow
-  publisher: AJR. American journal of roentgenology
-  date: '2024-09-18'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39291940
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39235436
-  title: 'Normative Neuroimaging Library: Designing a Comprehensive and Demographically
-    Diverse Dataset of Healthy Controls to Support Traumatic Brain Injury Diagnostic
-    and Therapeutic Development.'
-  authors:
-  - Allyson T Gage
-  - James R Stone
-  - Elisabeth A Wilde
-  - Stephen R McCauley
-  - Robert C Welsh
-  - John P Mugler
-  - Nick Tustison
-  - Brian Avants
-  - Christopher T Whitlow
-  - Lee Lancashire
-  - Seema D Bhatt
-  - Magali Haas
-  publisher: Journal of neurotrauma
-  date: '2024-09-05'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39235436
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:39229176
-  title: Brain structure and activity predicting cognitive maturation in adolescence.
-  authors:
-  - Junda Zhu
-  - "Cl\xE9ment M Garin"
-  - Xue-Lian Qi
-  - Anna Machado
-  - Zhengyang Wang
-  - Suliann Ben Hamed
-  - Terrence R Stanford
-  - Emilio Salinas
-  - Christopher T Whitlow
-  - Adam W Anderson
-  - Xin Maizie Zhou
-  - Finnegan J Calabro
-  - Beatriz Luna
-  - Christos Constantinidis
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2024-09-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39229176
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.1101/2025.01.20.25320851
 - id: pubmed:39179297
   title: 'Alzheimer Disease Anti-Amyloid Immunotherapies: Imaging Recommendations
     and Practice Considerations for Monitoring of Amyloid-Related Imaging Abnormalities.'
@@ -1046,155 +877,153 @@
   - Greg Zaharchuk
   - Michael Zeinah
   - Tammie S Benzinger
+  - ASNR Alzheimer, ARIA, and Dementia Study Group
   publisher: AJNR. American journal of neuroradiology
   date: '2025-01-08'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39179297
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/39179297/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:39054293
-  title: Cognitive and Salience Network Connectivity Changes following a Single Season
-    of Repetitive Head Impact Exposure in High School Football.
+  doi: 10.3174/ajnr.A8469
+- id: pubmed:41409187
+  title: External validation of a genomic signature for oligometastatic non-small
+    cell lung cancer.
+  authors:
+  - Ariel R Choi
+  - Ralph B D'Agostino
+  - Claire M Lanier
+  - Sarah Glynn
+  - Patrick Young
+  - Michael K Farris
+  - Mohammed Abdulhaleem
+  - Yuezhu Wang
+  - Margaret R Smith
+  - Jimmy Ruiz
+  - Thomas W Lycan
+  - W Jeffrey Petty
+  - Christina K Cramer
+  - Wencheng Li
+  - Jing Su
+  - Christopher T Whitlow
+  - Fei Xing
+  - Michael D Chan
+  publisher: Journal of radiosurgery and SBRT
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/41409187/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+- id: pubmed:39803742
+  title: Utilizing Quantitative Analysis of CSF Volume from Clinical T1-Weighted MRI
+    to Predict Thrombectomy Outcomes.
   authors:
   - Mohammad I Kawas
+  - Ahmad Shamulzai
   - Kyle M Atcheson
-  - William C Flood
-  - Christopher A Sheridan
-  - Richard A Barcus
-  - Laura A Flashman
-  - Thomas W McAllister
-  - Megan E Lipford
+  - Alex C Horn
+  - Renate Ma
+  - Carol Kittel
+  - Brian Curry
+  - Megan Lipford
   - Jeongchul Kim
-  - Jillian E Urban
-  - Elizabeth M Davenport
-  - Christopher G Vaughan
   - Kiran K Solingapuram Sai
-  - Joel D Stitzel
+  - Stacey Q Wolfe
+  - Christopher T Whitlow
+  publisher: 'Journal of neuroimaging : official journal of the American Society of
+    Neuroimaging'
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39803742/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1111/jon.70013
+- id: pubmed:39731855
+  title: Corrigendum to-"Ca2+ and CACNA1H mediate targeted suppression of breast cancer
+    brain metastasis by AM RF EMF"-[eBiomedicine, 44 (2019) 194-208].
+  authors:
+  - Sambad Sharma
+  - Shih-Ying Wu
+  - Hugo Jimenez
+  - Fei Xing
+  - Dongqin Zhu
+  - Yin Liu
+  - Kerui Wu
+  - Abhishek Tyagi
+  - Dan Zhao
+  - Hui-Wen Lo
+  - Linda Metheny-Barlow
+  - Peiqing Sun
+  - Daniel J Bourland
+  - Michael D Chan
+  - Alexandra Thomas
+  - Alexandre Barbault
+  - Ralph B D'Agostino
+  - Christopher T Whitlow
+  - Volker Kirchner
+  - Carl Blackman
+  - Boris Pasche
+  - Kounosuke Watabe
+  publisher: EBioMedicine
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39731855/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.ebiom.2024.105541
+- id: pubmed:39235436
+  title: 'Normative Neuroimaging Library: Designing a Comprehensive and Demographically
+    Diverse Dataset of Healthy Controls to Support Traumatic Brain Injury Diagnostic
+    and Therapeutic Development.'
+  authors:
+  - Allyson T Gage
+  - James R Stone
+  - Elisabeth A Wilde
+  - Stephen R McCauley
+  - Robert C Welsh
+  - John P Mugler
+  - Nick Tustison
+  - Brian Avants
+  - Christopher T Whitlow
+  - Lee Lancashire
+  - Seema D Bhatt
+  - Magali Haas
+  publisher: Journal of neurotrauma
+  date: '2024-12-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39235436/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1089/neu.2024.0128
+- id: pubmed:39399019
+  title: Reduced Cortical Excitability is Associated with Cognitive Symptoms in Concussed
+    Adolescent Football Players.
+  authors:
+  - Kevin C Yu
+  - Alex I Wiesman
+  - Elizabeth Davenport
+  - Laura A Flashman
+  - Jillian Urban
+  - Srikantan S Nagarajan
+  - Kiran Solingpuram Sai
+  - Joel Stitzel
   - Joseph A Maldjian
   - Christopher T Whitlow
-  publisher: AJNR. American journal of neuroradiology
-  date: '2024-08-09'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39054293
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  publisher: 'medRxiv : the preprint server for health sciences'
+  date: '2024-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39399019/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:38967283
-  title: 'Exploring microtubule dynamics in Alzheimer''s disease: Longitudinal assessment
-    using ['
+  doi: 10.1101/2024.09.23.24314232
+- id: pubmed:39291940
+  title: 'ChatGPT and Large Language Models in Radiology: Perspectives From the Field.'
   authors:
-  - Naresh Damuka
-  - Riley E Irmen
-  - Ivan Krizan
-  - Mack Miller
-  - Krishna K Gollapelli
-  - Bhuvanachandra Bhoopal
-  - Ojasvi Deep
-  - Avinash Bansode
-  - Samuel N Lockhart
-  - Miranda E Orr
-  - Pooja Jadiya
-  - Nagaraju Bashetti
-  - J V Shanmukha Kumar
-  - Akiva Mintz
+  - Manisha Bahl
+  - Patricia Balthazar
+  - Melissa A Davis
+  - Mina S Makary
+  - Sree Harsha Tirumani
   - Christopher T Whitlow
-  - Suzanne Craft
-  - Shannon L Macauley
-  - Kiran K Solingapuram Sai
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2024-07-05'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38967283
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  publisher: AJR. American journal of roentgenology
+  date: '2024-10-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39291940/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:38963424
-  title: 'Standardized reporting for Head CT Scans in patients suspected of traumatic
-    brain injury (TBI): An international expert endeavor.'
-  authors:
-  - Max Wintermark
-  - Jason W Allen
-  - Yoshimi Anzai
-  - Tilak Das
-  - Adam E Flanders
-  - Damien Galanaud
-  - Alisa Gean
-  - Sven Haller
-  - Han Lv
-  - Jussi Hirvonen
-  - John E Jordan
-  - Roland Lee
-  - Yvonne W Lui
-  - Pia C Sundgren
-  - Pratik Mukherjee
-  - "Kent G\xF8ran Moen"
-  - Mario Muto
-  - Karelys Ng
-  - Sumit N Niogi
-  - Alex Rovira
-  - Niloufar Libre de Bruxellas
-  - Marion Smits
-  - A John Tsiouris
-  - Johan Van Goethem
-  - Thijs Vande Vyvere
-  - Chris Whitlow
-  - Martin Wiesmann
-  - Kei Yamada
-  - Natalia Zakharova
-  - Paul M Parizel
-  publisher: Neuroradiology
-  date: '2024-07-04'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38963424
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:38764894
-  title: 'Biomarkers of Neurodegeneration and Alzheimer''s Disease Neuropathology
-    in Adolescents and Young Adults with Youth-Onset Type 1 or Type 2 Diabetes: A
-    Proof-of-Concept Study.'
-  authors:
-  - Allison L B Shapiro
-  - Christina Coughlan
-  - Brianne M Bettcher
-  - Meghan E Pauley
-  - Jeongchul Kim
-  - Petter Bjornstad
-  - Benjamin Rajic
-  - Jennifer Truong
-  - Christopher Bell
-  - Ye Ji Choi
-  - Keenan A Walker
-  - Huntington Potter
-  - Angela D Liese
-  - Dana Dabelea
-  - Christopher T Whitlow
-  publisher: Endocrines
-  date: '2024-05-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38764894
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:38747525
-  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
-    disease and related dementias and the impact of health-related comorbidities in
-    a community-dwelling cohort.
-  authors:
-  - Marc D Rudolph
-  - Courtney L Sutphen
-  - Thomas C Register
-  - Christopher T Whitlow
-  - Kiran K Solingapuram Sai
-  - Timothy M Hughes
-  - James R Bateman
-  - Jeffrey L Dage
-  - Kristen A Russ
-  - Michelle M Mielke
-  - Suzanne Craft
-  - Samuel N Lockhart
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2024-05-15'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38747525
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  doi: 10.2214/AJR.24.32022
 - id: pubmed:38663992
   title: 'Assessing the Performance of Artificial Intelligence Models: Insights from
     the American Society of Functional Neuroradiology Artificial Intelligence Competition.'
@@ -1232,10 +1061,127 @@
   - Max Wintermark
   publisher: AJNR. American journal of neuroradiology
   date: '2024-09-09'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38663992
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  link: https://pubmed.ncbi.nlm.nih.gov/38663992/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.3174/ajnr.A8317
+- id: pubmed:39229176
+  title: Brain structure and activity predicting cognitive maturation in adolescence.
+  authors:
+  - Junda Zhu
+  - Clément M Garin
+  - Xue-Lian Qi
+  - Anna Machado
+  - Zhengyang Wang
+  - Suliann Ben Hamed
+  - Terrence R Stanford
+  - Emilio Salinas
+  - Christopher T Whitlow
+  - Adam W Anderson
+  - Xin Maizie Zhou
+  - Finnegan J Calabro
+  - Beatriz Luna
+  - Christos Constantinidis
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2024-09-02'
+  link: https://pubmed.ncbi.nlm.nih.gov/39229176/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1101/2024.08.23.608315
+- id: pubmed:38967283
+  title: 'Exploring microtubule dynamics in Alzheimer''s disease: Longitudinal assessment
+    using [11C]MPC-6827 PET imaging in rodent models of Alzheimer''s-related pathology.'
+  authors:
+  - Naresh Damuka
+  - Riley E Irmen
+  - Ivan Krizan
+  - Mack Miller
+  - Krishna K Gollapelli
+  - Bhuvanachandra Bhoopal
+  - Ojasvi Deep
+  - Avinash Bansode
+  - Samuel N Lockhart
+  - Miranda E Orr
+  - Pooja Jadiya
+  - Nagaraju Bashetti
+  - J V Shanmukha Kumar
+  - Akiva Mintz
+  - Christopher T Whitlow
+  - Suzanne Craft
+  - Shannon L Macauley
+  - Kiran K Solingapuram Sai
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2024-09-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38967283/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.14083
+- id: pubmed:38963424
+  title: 'Standardized reporting for Head CT Scans in patients suspected of traumatic
+    brain injury (TBI): An international expert endeavor.'
+  authors:
+  - Max Wintermark
+  - Jason W Allen
+  - Yoshimi Anzai
+  - Tilak Das
+  - Adam E Flanders
+  - Damien Galanaud
+  - Alisa Gean
+  - Sven Haller
+  - Han Lv
+  - Jussi Hirvonen
+  - John E Jordan
+  - Roland Lee
+  - Yvonne W Lui
+  - Pia C Sundgren
+  - Pratik Mukherjee
+  - Kent Gøran Moen
+  - Mario Muto
+  - Karelys Ng
+  - Sumit N Niogi
+  - Alex Rovira
+  - Niloufar Libre de Bruxellas
+  - Marion Smits
+  - A John Tsiouris
+  - Johan Van Goethem
+  - Thijs Vande Vyvere
+  - Chris Whitlow
+  - Martin Wiesmann
+  - Kei Yamada
+  - Natalia Zakharova
+  - Paul M Parizel
+  publisher: Neuroradiology
+  date: '2024-09-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38963424/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1007/s00234-024-03410-2
+- id: pubmed:39054293
+  title: Cognitive and Salience Network Connectivity Changes following a Single Season
+    of Repetitive Head Impact Exposure in High School Football.
+  authors:
+  - Mohammad I Kawas
+  - Kyle M Atcheson
+  - William C Flood
+  - Christopher A Sheridan
+  - Richard A Barcus
+  - Laura A Flashman
+  - Thomas W McAllister
+  - Megan E Lipford
+  - Jeongchul Kim
+  - Jillian E Urban
+  - Elizabeth M Davenport
+  - Christopher G Vaughan
+  - Kiran K Solingapuram Sai
+  - Joel D Stitzel
+  - Joseph A Maldjian
+  - Christopher T Whitlow
+  publisher: AJNR. American journal of neuroradiology
+  date: '2024-08-09'
+  link: https://pubmed.ncbi.nlm.nih.gov/39054293/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A8294
 - id: pubmed:38636565
   title: 'Mediterranean diet protects against a neuroinflammatory cortical transcriptome:
     Associations with brain volumetrics, peripheral inflammation, social isolation,
@@ -1255,11 +1201,60 @@
   - Carol A Shively
   - Thomas C Register
   publisher: Brain, behavior, and immunity
-  date: '2024-04-16'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38636565
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
+  date: '2024-07-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38636565/
+  plugin: pubmed-direct.py
   file: pubmed.yaml
+  doi: 10.1016/j.bbi.2024.04.016
+- id: pubmed:38764894
+  title: 'Biomarkers of Neurodegeneration and Alzheimer''s Disease Neuropathology
+    in Adolescents and Young Adults with Youth-Onset Type 1 or Type 2 Diabetes: A
+    Proof-of-Concept Study.'
+  authors:
+  - Allison L B Shapiro
+  - Christina Coughlan
+  - Brianne M Bettcher
+  - Meghan E Pauley
+  - Jeongchul Kim
+  - Petter Bjornstad
+  - Benjamin Rajic
+  - Jennifer Truong
+  - Christopher Bell
+  - Ye Ji Choi
+  - Keenan A Walker
+  - Huntington Potter
+  - Angela D Liese
+  - Dana Dabelea
+  - Christopher T Whitlow
+  publisher: Endocrines
+  date: '2024-06-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38764894/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3390/endocrines5020014
+- id: pubmed:38747525
+  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
+    disease and related dementias and the impact of health-related comorbidities in
+    a community-dwelling cohort.
+  authors:
+  - Marc D Rudolph
+  - Courtney L Sutphen
+  - Thomas C Register
+  - Christopher T Whitlow
+  - Kiran K Solingapuram Sai
+  - Timothy M Hughes
+  - James R Bateman
+  - Jeffrey L Dage
+  - Kristen A Russ
+  - Michelle M Mielke
+  - Suzanne Craft
+  - Samuel N Lockhart
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2024-06-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38747525/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.13835
 - id: pubmed:38504345
   title: Epigenetic MLH1 silencing concurs with mismatch repair deficiency in sporadic,
     naturally occurring colorectal cancer in rhesus macaques.
@@ -1295,23 +1290,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:38434334
-  title: Automated extraction of heart rate variability from magnetoencephalography
-    signals.
-  authors:
-  - Ryan C Godwin
-  - William C Flood
-  - Jeremy P Hudson
-  - Marc D Benayoun
-  - Michael E Zapadka
-  - Ryan L Melvin
-  - Christopher T Whitlow
-  publisher: Heliyon
-  date: '2024-02-23'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38434334
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:38422744
   title: 'Brain metastases from renal cell carcinoma: Effects of novel systemic agents
     on brain metastasis outcomes.'
@@ -1331,6 +1309,23 @@
   publisher: Clinical neurology and neurosurgery
   date: '2024-02-24'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38422744
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38434334
+  title: Automated extraction of heart rate variability from magnetoencephalography
+    signals.
+  authors:
+  - Ryan C Godwin
+  - William C Flood
+  - Jeremy P Hudson
+  - Marc D Benayoun
+  - Michael E Zapadka
+  - Ryan L Melvin
+  - Christopher T Whitlow
+  publisher: Heliyon
+  date: '2024-02-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38434334
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1401,6 +1396,35 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:39355617
+  title: Genomic signature for oligometastatic disease in non-small cell lung cancer
+    patients with brain metastases.
+  authors:
+  - Ariel R Choi
+  - Ralph B D'Agostino
+  - Michael K Farris
+  - Mohammed Abdulhaleem
+  - John C Hunting
+  - Yuezhu Wang
+  - Margaret R Smith
+  - Jimmy Ruiz
+  - Thomas W Lycan
+  - W Jeffrey Petty
+  - Christina K Cramer
+  - Stephen B Tatter
+  - Adrian W Laxton
+  - Jaclyn J White
+  - Wencheng Li
+  - Jing Su
+  - Christopher Whitlow
+  - Fei Xing
+  - Michael D Chan
+  publisher: Frontiers in endocrinology
+  date: '2024-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39355617/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fendo.2024.1364021
 - id: pubmed:38070839
   title: Assessing cerebrovascular reactivity (CVR) in rhesus macaques (Macaca mulatta)
     using a hypercapnic challenge and pseudo-continuous arterial spin labeling (pCASL).
@@ -1420,6 +1444,27 @@
   publisher: NeuroImage
   date: '2023-12-07'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38070839
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37972714
+  title: Total-Body Irradiation Alters White Matter Volume and Microstructural Integrity
+    in Rhesus Macaques.
+  authors:
+  - Brendan J Johnson
+  - Richard A Barcus
+  - John D Olson
+  - Megan E Lipford
+  - Rachel N Andrews
+  - Greg O Dugan
+  - Janet A Tooze
+  - Jeongchul Kim
+  - Simon Deycmar
+  - Christopher T Whitlow
+  - J Mark Cline
+  publisher: International journal of radiation oncology, biology, physics
+  date: '2023-11-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37972714
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1448,27 +1493,6 @@
   publisher: Frontiers in oncology
   date: '2023-11-07'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38023147
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:37972714
-  title: Total-Body Irradiation Alters White Matter Volume and Microstructural Integrity
-    in Rhesus Macaques.
-  authors:
-  - Brendan J Johnson
-  - Richard A Barcus
-  - John D Olson
-  - Megan E Lipford
-  - Rachel N Andrews
-  - Greg O Dugan
-  - Janet A Tooze
-  - Jeongchul Kim
-  - Simon Deycmar
-  - Christopher T Whitlow
-  - J Mark Cline
-  publisher: International journal of radiation oncology, biology, physics
-  date: '2023-11-14'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/37972714
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1537,7 +1561,7 @@
   - Stephen R Rapp
   - Annette L Fitzpatrick
   - Susan R Heckbert
-  - "Jos\xE9 A Luchsinger"
+  - José A Luchsinger
   - Barbara E K Klein
   - Stacy M Meuer
   - Mary Frances Cotch
@@ -1689,30 +1713,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:36970170
-  title: 'Five-year survivors from brain metastases treated with stereotactic radiosurgery:
-    Biology, improving treatments, or just plain luck?'
-  authors:
-  - Jane B Pearce
-  - Fang-Chi Hsu
-  - Claire M Lanier
-  - Christina K Cramer
-  - Jimmy Ruiz
-  - Hui-Wen Lo
-  - Fei Xing
-  - Margaret Smith
-  - Wencheng Li
-  - Christopher Whitlow
-  - Jaclyn J White
-  - Stephen B Tatter
-  - Adrian W Laxton
-  - Michael D Chan
-  publisher: Neuro-oncology practice
-  date: '2022-12-13'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36970170
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:36779071
   title: Rapid-onset dystonia-parkinsonism is associated with reduced cerebral blood
     flow without gray matter changes.
@@ -1758,14 +1758,27 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:36619277
-  title: Overuse of Proximal Fecal Diversion in Colorectal Surgery.
+- id: pubmed:36970170
+  title: 'Five-year survivors from brain metastases treated with stereotactic radiosurgery:
+    Biology, improving treatments, or just plain luck?'
   authors:
-  - William Buckley Lyman
-  - Charles B Whitlow
-  publisher: Clinics in colon and rectal surgery
-  date: '2022-11-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36619277
+  - Jane B Pearce
+  - Fang-Chi Hsu
+  - Claire M Lanier
+  - Christina K Cramer
+  - Jimmy Ruiz
+  - Hui-Wen Lo
+  - Fei Xing
+  - Margaret Smith
+  - Wencheng Li
+  - Christopher Whitlow
+  - Jaclyn J White
+  - Stephen B Tatter
+  - Adrian W Laxton
+  - Michael D Chan
+  publisher: Neuro-oncology practice
+  date: '2022-12-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36970170
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1784,6 +1797,40 @@
   publisher: AJNR. American journal of neuroradiology
   date: '2022-12-08'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36574316
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36335526
+  title: 'Long term survivors of stereotactic radiosurgery for brain metastases: do
+    distant brain failures reach a plateau and what factors are associated with a
+    brain metastasis velocity of zero?'
+  authors:
+  - Claire M Lanier
+  - Jane Pearce
+  - Scott Isom
+  - Fei Xing
+  - Hui-Wen Lo
+  - Christopher T Whitlow
+  - Jimmy Ruiz
+  - Jaclyn J White
+  - Adrian W Laxton
+  - Stephen B Tatter
+  - Christina K Cramer
+  - Michael D Chan
+  publisher: Journal of neuro-oncology
+  date: '2022-11-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36335526
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36619277
+  title: Overuse of Proximal Fecal Diversion in Colorectal Surgery.
+  authors:
+  - William Buckley Lyman
+  - Charles B Whitlow
+  publisher: Clinics in colon and rectal surgery
+  date: '2022-11-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36619277
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1817,81 +1864,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:36335526
-  title: 'Long term survivors of stereotactic radiosurgery for brain metastases: do
-    distant brain failures reach a plateau and what factors are associated with a
-    brain metastasis velocity of zero?'
-  authors:
-  - Claire M Lanier
-  - Jane Pearce
-  - Scott Isom
-  - Fei Xing
-  - Hui-Wen Lo
-  - Christopher T Whitlow
-  - Jimmy Ruiz
-  - Jaclyn J White
-  - Adrian W Laxton
-  - Stephen B Tatter
-  - Christina K Cramer
-  - Michael D Chan
-  publisher: Journal of neuro-oncology
-  date: '2022-11-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36335526
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:36314205
-  title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
-    Brain Microstructure, Perfusion, and Cognition.
-  authors:
-  - Timothy M Hughes
-  - Samuel N Lockhart
-  - Cynthia K Suerken
-  - Youngkyoo Jung
-  - Christopher T Whitlow
-  - James R Bateman
-  - Benjamin J Williams
-  - Mark A Espeland
-  - Bonnie C Sachs
-  - Jeff Williamson
-  - Maryjo Cleveland
-  - Mia Yang
-  - Samantha Rogers
-  - Kathleen M Hayden
-  - Laura D Baker
-  - Suzanne Craft
-  publisher: 'Journal of Alzheimer''s disease : JAD'
-  date: '2022-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36314205
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:36275134
-  title: Upfront immunotherapy leads to lower brain metastasis velocity in patients
-    undergoing stereotactic radiosurgery for brain metastases.
-  authors:
-  - Mohammed Abdulhaleem
-  - Emmanuel Scott
-  - Hannah Johnston
-  - Scott Isom
-  - Claire Lanier
-  - Michael LeCompte
-  - Christina K Cramer
-  - Jimmy Ruiz
-  - Hui-Wen Lo
-  - Kuonosuke Watabe
-  - Stacey O'Neill
-  - Christopher Whitlow
-  - Stephen B Tatter
-  - Adrian W Laxton
-  - Jing Su
-  - Michael D Chan
-  publisher: Journal of radiosurgery and SBRT
-  date: '2022-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36275134
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:36213243
   title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
     among people with risk of cognitive decline.'
@@ -1910,30 +1882,6 @@
   publisher: Frontiers in physiology
   date: '2022-09-23'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36213243
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:36134018
-  title: Clinical outcomes of dose-escalated re-irradiation in patients with recurrent
-    high-grade glioma.
-  authors:
-  - Corbin A Helis
-  - Shih-Ni Prim
-  - Christina K Cramer
-  - Roy Strowd
-  - Glenn J Lesser
-  - Jaclyn J White
-  - Stephen B Tatter
-  - Adrian W Laxton
-  - Christopher Whitlow
-  - Hui-Wen Lo
-  - Waldemar Debinski
-  - James D Ververs
-  - Paul J Black
-  - Michael D Chan
-  publisher: Neuro-oncology practice
-  date: '2022-05-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36134018
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1956,31 +1904,11 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:36006081
-  title: Relationship between Aggressiveness, Self-Confidence, and Perceived Coach
-    Support and Head Impact Exposure in Youth Football.
-  authors:
-  - Madison E Marks
-  - William C Flood
-  - Mireille E Kelley
-  - Mark A Espeland
-  - Christopher M Miles
-  - Alexander K Powers
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  - Jillian E Urban
-  publisher: Sports (Basel, Switzerland)
-  date: '2022-07-29'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36006081
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:35986059
   title: Early-stage COVID-19 pandemic observations on pulmonary embolism using nationwide
     multi-institutional data harvesting.
   authors:
-  - "Axel Wism\xFCller"
+  - Axel Wismüller
   - Adora M DSouza
   - Anas Z Abidin
   - M Ali Vosoughi
@@ -2033,6 +1961,26 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:36006081
+  title: Relationship between Aggressiveness, Self-Confidence, and Perceived Coach
+    Support and Head Impact Exposure in Youth Football.
+  authors:
+  - Madison E Marks
+  - William C Flood
+  - Mireille E Kelley
+  - Mark A Espeland
+  - Christopher M Miles
+  - Alexander K Powers
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  - Jillian E Urban
+  publisher: Sports (Basel, Switzerland)
+  date: '2022-07-29'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36006081
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:35881263
   title: Preliminary mechanistic insights of a brain-penetrant microtubule imaging
     PET ligand in a tau-knockout mouse model.
@@ -2051,25 +1999,6 @@
   publisher: EJNMMI research
   date: '2022-07-26'
   link: https://www.ncbi.nlm.nih.gov/pubmed/35881263
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:35849756
-  title: 'Liposomal Bupivacaine Transversus Abdominis Plane Blocks in Laparoscopic
-    Colorectal Resections: A Single-Institution Randomized Controlled Trial.'
-  authors:
-  - Guillaume S Chevrollier
-  - Aaron L Klinger
-  - Heather J Green
-  - Mariella M Gastanaduy
-  - W Forrest Johnston
-  - Herschel D Vargas
-  - Brian R Kann
-  - Charles B Whitlow
-  - Jennifer L Paruch
-  publisher: Diseases of the colon and rectum
-  date: '2022-05-24'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/35849756
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2098,6 +2027,49 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:35849756
+  title: 'Liposomal Bupivacaine Transversus Abdominis Plane Blocks in Laparoscopic
+    Colorectal Resections: A Single-Institution Randomized Controlled Trial.'
+  authors:
+  - Guillaume S Chevrollier
+  - Aaron L Klinger
+  - Heather J Green
+  - Mariella M Gastanaduy
+  - W Forrest Johnston
+  - Herschel D Vargas
+  - Brian R Kann
+  - Charles B Whitlow
+  - Jennifer L Paruch
+  publisher: Diseases of the colon and rectum
+  date: '2022-05-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35849756
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36134018
+  title: Clinical outcomes of dose-escalated re-irradiation in patients with recurrent
+    high-grade glioma.
+  authors:
+  - Corbin A Helis
+  - Shih-Ni Prim
+  - Christina K Cramer
+  - Roy Strowd
+  - Glenn J Lesser
+  - Jaclyn J White
+  - Stephen B Tatter
+  - Adrian W Laxton
+  - Christopher Whitlow
+  - Hui-Wen Lo
+  - Waldemar Debinski
+  - James D Ververs
+  - Paul J Black
+  - Michael D Chan
+  publisher: Neuro-oncology practice
+  date: '2022-05-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36134018
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:35572696
   title: 'Not All Liver Abscesses Are Created Equal: The Impact of Tylosin and Antibiotic
     Alternatives on Bovine Liver Abscess Microbial Communities and a First Look at
@@ -2119,14 +2091,14 @@
 - id: pubmed:35417698
   title: An evolutionary gap in primate default mode network organization.
   authors:
-  - "Cl\xE9ment M Garin"
+  - Clément M Garin
   - Yuki Hori
   - Stefan Everling
   - Christopher T Whitlow
   - Finnegan J Calabro
   - Beatriz Luna
   - Mathilda Froesel
-  - "Ma\xEBva Gacoin"
+  - Maëva Gacoin
   - Suliann Ben Hamed
   - Marc Dhenain
   - Christos Constantinidis
@@ -2171,24 +2143,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:35295607
-  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [
-  authors:
-  - Naresh Damuka
-  - Thomas J Martin
-  - Avinash H Bansode
-  - Ivan Krizan
-  - Conner W Martin
-  - Mack Miller
-  - Christopher T Whitlow
-  - Michael A Nader
-  - Kiran Kumar Solingapuram Sai
-  publisher: Frontiers in medicine
-  date: '2022-02-28'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/35295607
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:35274379
   title: Comparison of linear and volumetric criteria for the determination of therapeutic
     response in dogs with intracranial gliomas.
@@ -2207,6 +2161,24 @@
   publisher: Journal of veterinary internal medicine
   date: '2022-03-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/35274379
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35295607
+  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [
+  authors:
+  - Naresh Damuka
+  - Thomas J Martin
+  - Avinash H Bansode
+  - Ivan Krizan
+  - Conner W Martin
+  - Mack Miller
+  - Christopher T Whitlow
+  - Michael A Nader
+  - Kiran Kumar Solingapuram Sai
+  publisher: Frontiers in medicine
+  date: '2022-02-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35295607
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2254,6 +2226,58 @@
   publisher: Journal of neurosurgery. Pediatrics
   date: '2022-01-21'
   link: https://www.ncbi.nlm.nih.gov/pubmed/35061991
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36314205
+  title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
+    Brain Microstructure, Perfusion, and Cognition.
+  authors:
+  - Timothy M Hughes
+  - Samuel N Lockhart
+  - Cynthia K Suerken
+  - Youngkyoo Jung
+  - Christopher T Whitlow
+  - James R Bateman
+  - Benjamin J Williams
+  - Mark A Espeland
+  - Bonnie C Sachs
+  - Jeff Williamson
+  - Maryjo Cleveland
+  - Mia Yang
+  - Samantha Rogers
+  - Kathleen M Hayden
+  - Laura D Baker
+  - Suzanne Craft
+  publisher: 'Journal of Alzheimer''s disease : JAD'
+  date: '2022-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36314205
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36275134
+  title: Upfront immunotherapy leads to lower brain metastasis velocity in patients
+    undergoing stereotactic radiosurgery for brain metastases.
+  authors:
+  - Mohammed Abdulhaleem
+  - Emmanuel Scott
+  - Hannah Johnston
+  - Scott Isom
+  - Claire Lanier
+  - Michael LeCompte
+  - Christina K Cramer
+  - Jimmy Ruiz
+  - Hui-Wen Lo
+  - Kuonosuke Watabe
+  - Stacey O'Neill
+  - Christopher Whitlow
+  - Stephen B Tatter
+  - Adrian W Laxton
+  - Jing Su
+  - Michael D Chan
+  publisher: Journal of radiosurgery and SBRT
+  date: '2022-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36275134
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2363,6 +2387,28 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:34039024
+  title: Regional White Matter Diffusion Changes Associated with the Cumulative Tensile
+    Strain and Strain Rate in Nonconcussed Youth Football Players.
+  authors:
+  - James M Holcomb
+  - Ryan A Fisicaro
+  - Logan E Miller
+  - Fang F Yu
+  - Elizabeth M Davenport
+  - Yin Xi
+  - Jillian E Urban
+  - Ben C Wagner
+  - Alexander K Powers
+  - Christopher T Whitlow
+  - Joel D Stitzel
+  - Joseph A Maldjian
+  publisher: Journal of neurotrauma
+  date: '2021-09-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34039024
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:34434093
   title: The Acute Effects of Time-Varying Caloric Vestibular Stimulation as Assessed
     With fMRI.
@@ -2469,27 +2515,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:34135768
-  title: Relationship Between Cerebrovascular Reactivity and Cognition Among People
-    With Risk of Cognitive Decline.
-  authors:
-  - Donghoon Kim
-  - Timothy M Hughes
-  - Megan E Lipford
-  - Suzanne Craft
-  - Laura D Baker
-  - Samuel N Lockhart
-  - Christopher T Whitlow
-  - Stephanie E Okonmah-Obazee
-  - Christina E Hugenschmidt
-  - Matthew Bobinski
-  - Youngkyoo Jung
-  publisher: Frontiers in physiology
-  date: '2021-05-31'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/34135768
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:34130257
   title: Analysis of longitudinal head impact exposure and white matter integrity
     in returning youth football players.
@@ -2510,25 +2535,24 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:34039024
-  title: Regional White Matter Diffusion Changes Associated with the Cumulative Tensile
-    Strain and Strain Rate in Nonconcussed Youth Football Players.
+- id: pubmed:34135768
+  title: Relationship Between Cerebrovascular Reactivity and Cognition Among People
+    With Risk of Cognitive Decline.
   authors:
-  - James M Holcomb
-  - Ryan A Fisicaro
-  - Logan E Miller
-  - Fang F Yu
-  - Elizabeth M Davenport
-  - Yin Xi
-  - Jillian E Urban
-  - Ben C Wagner
-  - Alexander K Powers
+  - Donghoon Kim
+  - Timothy M Hughes
+  - Megan E Lipford
+  - Suzanne Craft
+  - Laura D Baker
+  - Samuel N Lockhart
   - Christopher T Whitlow
-  - Joel D Stitzel
-  - Joseph A Maldjian
-  publisher: Journal of neurotrauma
-  date: '2021-09-03'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/34039024
+  - Stephanie E Okonmah-Obazee
+  - Christina E Hugenschmidt
+  - Matthew Bobinski
+  - Youngkyoo Jung
+  publisher: Frontiers in physiology
+  date: '2021-05-31'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34135768
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2612,24 +2636,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:35832263
-  title: Convection-Enhanced Arborizing Catheter System Improves Local/Regional Delivery
-    of Infusates Versus a Single-Port Catheter in Ex Vivo Porcine Brain Tissue.
-  authors:
-  - Egleide Y Elenes
-  - Jason N Mehta
-  - Fang-Chi Hsu
-  - Christopher T Whitlow
-  - Waldermar Debinski
-  - John Rossmeisl
-  - Stephen Tatter
-  - Christopher G Rylander
-  publisher: Journal of engineering and science in medical diagnostics and therapy
-  date: '2020-12-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/35832263
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:33418508
   title: Brain cell-derived exosomes in plasma serve as neurodegeneration biomarkers
     in male cynomolgus monkeys self-administrating oxycodone.
@@ -2678,6 +2684,24 @@
   publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
   date: '2020-12-03'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33270373
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35832263
+  title: Convection-Enhanced Arborizing Catheter System Improves Local/Regional Delivery
+    of Infusates Versus a Single-Port Catheter in Ex Vivo Porcine Brain Tissue.
+  authors:
+  - Egleide Y Elenes
+  - Jason N Mehta
+  - Fang-Chi Hsu
+  - Christopher T Whitlow
+  - Waldermar Debinski
+  - John Rossmeisl
+  - Stephen Tatter
+  - Christopher G Rylander
+  publisher: Journal of engineering and science in medical diagnostics and therapy
+  date: '2020-12-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35832263
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2767,6 +2791,44 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:32610296
+  title: 'Hippocampal CA1 and CA3 neural recording in the human brain: validation
+    of depth electrode placement through high-resolution imaging and electrophysiology.'
+  authors:
+  - Robert T Wicks
+  - Mark R Witcher
+  - Daniel E Couture
+  - Adrian W Laxton
+  - Gautam Popli
+  - Christopher T Whitlow
+  - Dustin Fetterhoff
+  - Alexander S Dakos
+  - Brent M Roeder
+  - Sam A Deadwyler
+  - Robert E Hampson
+  publisher: Neurosurgical focus
+  date: '2020-07-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32610296
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32239147
+  title: 'Rhesus Macaque Brain Developmental Trajectory: A Longitudinal Analysis Using
+    Tensor-Based Structural Morphometry and Diffusion Tensor Imaging.'
+  authors:
+  - Jeongchul Kim
+  - Youngkyoo Jung
+  - Richard Barcus
+  - Jocelyne H Bachevalier
+  - Mar M Sanchez
+  - Michael A Nader
+  - Christopher T Whitlow
+  publisher: 'Cerebral cortex (New York, N.Y. : 1991)'
+  date: '2020-06-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32239147
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:32615262
   title: Predictors of Adverse Radiation Effect in Brain Metastasis Patients Treated
     With Stereotactic Radiosurgery and Immune Checkpoint Inhibitor Therapy.
@@ -2797,27 +2859,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:32610296
-  title: 'Hippocampal CA1 and CA3 neural recording in the human brain: validation
-    of depth electrode placement through high-resolution imaging and electrophysiology.'
-  authors:
-  - Robert T Wicks
-  - Mark R Witcher
-  - Daniel E Couture
-  - Adrian W Laxton
-  - Gautam Popli
-  - Christopher T Whitlow
-  - Dustin Fetterhoff
-  - Alexander S Dakos
-  - Brent M Roeder
-  - Sam A Deadwyler
-  - Robert E Hampson
-  publisher: Neurosurgical focus
-  date: '2020-07-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/32610296
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:32414052
   title: PET Imaging of [
   authors:
@@ -2842,23 +2883,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:32239147
-  title: 'Rhesus Macaque Brain Developmental Trajectory: A Longitudinal Analysis Using
-    Tensor-Based Structural Morphometry and Diffusion Tensor Imaging.'
-  authors:
-  - Jeongchul Kim
-  - Youngkyoo Jung
-  - Richard Barcus
-  - Jocelyne H Bachevalier
-  - Mar M Sanchez
-  - Michael A Nader
-  - Christopher T Whitlow
-  publisher: 'Cerebral cortex (New York, N.Y. : 1991)'
-  date: '2020-06-30'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/32239147
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:32086201
   title: Multi-Contrast Super-Resolution MRI Through a Progressive Network.
   authors:
@@ -2872,6 +2896,25 @@
   publisher: IEEE transactions on medical imaging
   date: '2020-02-18'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32086201
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31469712
+  title: Physical Performance Measures Correlate with Head Impact Exposure in Youth
+    Football.
+  authors:
+  - Mireille E Kelley
+  - Derek A Jones
+  - Mark A Espeland
+  - Meagan L Rosenberg
+  - Christopher M Miles
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  - Jillian E Urban
+  publisher: Medicine and science in sports and exercise
+  date: '2020-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31469712
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -2918,33 +2961,6 @@
   publisher: Pathogens & immunity
   date: '2019-10-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31768483
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:31757576
-  title: 'Modified ketogenic diet is associated with improved cerebrospinal fluid
-    biomarker profile, cerebral perfusion, and cerebral ketone body uptake in older
-    adults at risk for Alzheimer''s disease: a pilot study.'
-  authors:
-  - Bryan J Neth
-  - Akiva Mintz
-  - Christopher Whitlow
-  - Youngkyoo Jung
-  - Kiran Solingapuram Sai
-  - Thomas C Register
-  - Derek Kellar
-  - Samuel N Lockhart
-  - Siobhan Hoscheidt
-  - Joseph Maldjian
-  - Amanda J Heslegrave
-  - Kaj Blennow
-  - Stephen C Cunnane
-  - Christian-Alexandre Castellano
-  - Henrik Zetterberg
-  - Suzanne Craft
-  publisher: Neurobiology of aging
-  date: '2019-09-26'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31757576
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3000,49 +3016,30 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:31555455
-  title: Immunotherapy is associated with improved survival and decreased neurologic
-    death after SRS for brain metastases from lung and melanoma primaries.
+- id: pubmed:31757576
+  title: 'Modified ketogenic diet is associated with improved cerebrospinal fluid
+    biomarker profile, cerebral perfusion, and cerebral ketone body uptake in older
+    adults at risk for Alzheimer''s disease: a pilot study.'
   authors:
-  - Claire M Lanier
-  - Ryan Hughes
-  - Tamjeed Ahmed
-  - Michael LeCompte
-  - Adrianna H Masters
-  - William J Petty
-  - Jimmy Ruiz
-  - Pierre Triozzi
-  - Jing Su
-  - Stacy O'Neill
-  - Kuonosuke Watabe
-  - Christina K Cramer
-  - Adrian W Laxton
-  - Stephen B Tatter
-  - Ge Wang
+  - Bryan J Neth
+  - Akiva Mintz
   - Christopher Whitlow
-  - Michael D Chan
-  publisher: Neuro-oncology practice
-  date: '2019-02-05'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31555455
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:31469712
-  title: Physical Performance Measures Correlate with Head Impact Exposure in Youth
-    Football.
-  authors:
-  - Mireille E Kelley
-  - Derek A Jones
-  - Mark A Espeland
-  - Meagan L Rosenberg
-  - Christopher M Miles
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  - Jillian E Urban
-  publisher: Medicine and science in sports and exercise
-  date: '2020-02-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31469712
+  - Youngkyoo Jung
+  - Kiran Solingapuram Sai
+  - Thomas C Register
+  - Derek Kellar
+  - Samuel N Lockhart
+  - Siobhan Hoscheidt
+  - Joseph Maldjian
+  - Amanda J Heslegrave
+  - Kaj Blennow
+  - Stephen C Cunnane
+  - Christian-Alexandre Castellano
+  - Henrik Zetterberg
+  - Suzanne Craft
+  publisher: Neurobiology of aging
+  date: '2019-09-26'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31757576
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3092,21 +3089,21 @@
   - Rosmarie Albrecht
   - Sylvia Herter
   - Ramona Schlenker
-  - "Tamara H\xFCsser"
+  - Tamara Hüsser
   - Sarah Diggelmann
   - John Challier
-  - "Ekkehard M\xF6ssner"
+  - Ekkehard Mössner
   - Ralf J Hosse
   - Thomas Hofer
-  - "Peter Br\xFCnker"
+  - Peter Brünker
   - Catherine Joseph
-  - "J\xF6rg Benz"
+  - Jörg Benz
   - Philippe Ringler
   - Henning Stahlberg
   - Matthias Lauer
   - Mario Perro
   - Stanford Chen
-  - "Christine K\xFCttel"
+  - Christine Küttel
   - Preethi L Bhavani Mohan
   - Valeria Nicolini
   - Martina Carola Birk
@@ -3131,15 +3128,15 @@
   - Sandra Grau-Richards
   - Thomas von Hirschheydt
   - Stella Tournaviti
-  - "Michael M\xF8lh\xF8j"
+  - Michael Mølhøj
   - Tanja Fauti
   - Viola Heinzelmann-Schwarz
-  - "Volker Teichgr\xE4ber"
+  - Volker Teichgräber
   - Sara Colombetti
   - Marina Bacac
   - Alfred Zippelius
   - Christian Klein
-  - "Pablo Uma\xF1a"
+  - Pablo Umaña
   publisher: Science translational medicine
   date: '2019-06-12'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31189721
@@ -3177,6 +3174,28 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:30963804
+  title: 'Association of Head Injury with Brain Amyloid Deposition: The ARIC-PET Study.'
+  authors:
+  - Andrea L C Schneider
+  - Elizabeth Selvin
+  - Menglu Liang
+  - Lawrence Latour
+  - L Christine Turtzo
+  - Silvia Koton
+  - Josef Coresh
+  - Thomas Mosley
+  - Christopher T Whitlow
+  - Yun Zhou
+  - Dean F Wong
+  - Geoffrey Ling
+  - Rebecca F Gottesman
+  publisher: Journal of neurotrauma
+  date: '2019-05-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30963804
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:31075762
   title: Evaluation of head impact exposure measured from youth football game plays.
   authors:
@@ -3197,25 +3216,66 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:30963804
-  title: 'Association of Head Injury with Brain Amyloid Deposition: The ARIC-PET Study.'
+- id: pubmed:29064902
+  title: 'The Role of Bowel Preparation in Colorectal Surgery: Results of the 2012-2015
+    ACS-NSQIP Data.'
   authors:
-  - Andrea L C Schneider
-  - Elizabeth Selvin
-  - Menglu Liang
-  - Lawrence Latour
-  - L Christine Turtzo
-  - Silvia Koton
-  - Josef Coresh
-  - Thomas Mosley
+  - Aaron L Klinger
+  - Heather Green
+  - Dominique J Monlezun
+  - David Beck
+  - Brian Kann
+  - Herschel D Vargas
+  - Charles Whitlow
+  - David Margolin
+  publisher: Annals of surgery
+  date: '2019-04-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29064902
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31555455
+  title: Immunotherapy is associated with improved survival and decreased neurologic
+    death after SRS for brain metastases from lung and melanoma primaries.
+  authors:
+  - Claire M Lanier
+  - Ryan Hughes
+  - Tamjeed Ahmed
+  - Michael LeCompte
+  - Adrianna H Masters
+  - William J Petty
+  - Jimmy Ruiz
+  - Pierre Triozzi
+  - Jing Su
+  - Stacy O'Neill
+  - Kuonosuke Watabe
+  - Christina K Cramer
+  - Adrian W Laxton
+  - Stephen B Tatter
+  - Ge Wang
+  - Christopher Whitlow
+  - Michael D Chan
+  publisher: Neuro-oncology practice
+  date: '2019-02-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31555455
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30489208
+  title: Evaluation of Brain Response during Head Impact in Youth Athletes Using an
+    Anatomically Accurate Finite Element Model.
+  authors:
+  - Logan E Miller
+  - Jillian E Urban
+  - Mireille E Kelley
+  - Alexander K Powers
   - Christopher T Whitlow
-  - Yun Zhou
-  - Dean F Wong
-  - Geoffrey Ling
-  - Rebecca F Gottesman
+  - Joseph A Maldjian
+  - Steven Rowson
+  - Joel D Stitzel
   publisher: Journal of neurotrauma
-  date: '2019-05-23'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30963804
+  date: '2019-01-09'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30489208
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3272,24 +3332,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:30489208
-  title: Evaluation of Brain Response during Head Impact in Youth Athletes Using an
-    Anatomically Accurate Finite Element Model.
-  authors:
-  - Logan E Miller
-  - Jillian E Urban
-  - Mireille E Kelley
-  - Alexander K Powers
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Steven Rowson
-  - Joel D Stitzel
-  publisher: Journal of neurotrauma
-  date: '2019-01-09'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30489208
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:30467082
   title: 'A nonhuman primate model of early Alzheimer''s disease pathologic change:
     Implications for disease pathogenesis.'
@@ -3338,6 +3380,36 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:29921164
+  title: In-Season Variations in Head Impact Exposure among Youth Football Players.
+  authors:
+  - Jillian E Urban
+  - Mireille E Kelley
+  - Mark A Espeland
+  - Elizabeth M Davenport
+  - Christopher T Whitlow
+  - Alexander K Powers
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  publisher: Journal of neurotrauma
+  date: '2018-08-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29921164
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29848016
+  title: The vast potential and bright future of neuroimaging.
+  authors:
+  - Max Wintermark
+  - Rivka Colen
+  - Christopher T Whitlow
+  - Greg Zaharchuk
+  publisher: The British journal of radiology
+  date: '2018-06-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29848016
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:30042057
   title: Relationships between cerebral structure and cognitive function in African
     Americans with type 2 diabetes.
@@ -3380,36 +3452,6 @@
   publisher: The Journal of surgical research
   date: '2018-05-02'
   link: https://www.ncbi.nlm.nih.gov/pubmed/29936995
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:29921164
-  title: In-Season Variations in Head Impact Exposure among Youth Football Players.
-  authors:
-  - Jillian E Urban
-  - Mireille E Kelley
-  - Mark A Espeland
-  - Elizabeth M Davenport
-  - Christopher T Whitlow
-  - Alexander K Powers
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  publisher: Journal of neurotrauma
-  date: '2018-08-15'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29921164
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:29848016
-  title: The vast potential and bright future of neuroimaging.
-  authors:
-  - Max Wintermark
-  - Rivka Colen
-  - Christopher T Whitlow
-  - Greg Zaharchuk
-  publisher: The British journal of radiology
-  date: '2018-06-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29848016
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3474,6 +3516,31 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:29309525
+  title: Cerebral Structure and Cognitive Performance in African Americans and European
+    Americans With Type 2 Diabetes.
+  authors:
+  - Fang-Chi Hsu
+  - Kaycee M Sink
+  - Christina E Hugenschmidt
+  - Jeff D Williamson
+  - Timothy M Hughes
+  - Nicholette D Palmer
+  - Jianzhao Xu
+  - S Carrie Smith
+  - Benjamin C Wagner
+  - Christopher T Whitlow
+  - Donald W Bowden
+  - Joseph A Maldjian
+  - Jasmin Divers
+  - Barry I Freedman
+  publisher: The journals of gerontology. Series A, Biological sciences and medical
+    sciences
+  date: '2018-03-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29309525
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:29462404
   title: vmPFC activation during a stressor predicts positive emotions during stress
     recovery.
@@ -3487,24 +3554,6 @@
   publisher: Social cognitive and affective neuroscience
   date: '2018-03-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/29462404
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:29457976
-  title: Radiosynthesis and in Vivo Evaluation of [
-  authors:
-  - J S Dileep Kumar
-  - Kiran Kumar Solingapuram Sai
-  - Jaya Prabhakaran
-  - Hakeem R Oufkir
-  - Gayathri Ramanathan
-  - Christopher T Whitlow
-  - Hima Dileep
-  - Akiva Mintz
-  - J John Mann
-  publisher: Journal of medicinal chemistry
-  date: '2018-02-23'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29457976
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3554,6 +3603,24 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:29457976
+  title: Radiosynthesis and in Vivo Evaluation of [
+  authors:
+  - J S Dileep Kumar
+  - Kiran Kumar Solingapuram Sai
+  - Jaya Prabhakaran
+  - Hakeem R Oufkir
+  - Gayathri Ramanathan
+  - Christopher T Whitlow
+  - Hima Dileep
+  - Akiva Mintz
+  - J John Mann
+  publisher: Journal of medicinal chemistry
+  date: '2018-02-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29457976
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:29337769
   title: 'Morbidity Following Coloanal Anastomosis: A Comparison of Colonic J-Pouch
     vs Straight Anastomosis.'
@@ -3572,56 +3639,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:29309525
-  title: Cerebral Structure and Cognitive Performance in African Americans and European
-    Americans With Type 2 Diabetes.
-  authors:
-  - Fang-Chi Hsu
-  - Kaycee M Sink
-  - Christina E Hugenschmidt
-  - Jeff D Williamson
-  - Timothy M Hughes
-  - Nicholette D Palmer
-  - Jianzhao Xu
-  - S Carrie Smith
-  - Benjamin C Wagner
-  - Christopher T Whitlow
-  - Donald W Bowden
-  - Joseph A Maldjian
-  - Jasmin Divers
-  - Barry I Freedman
-  publisher: The journals of gerontology. Series A, Biological sciences and medical
-    sciences
-  date: '2018-03-02'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29309525
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:29230115
-  title: 'Interval Colorectal Cancers at Ochsner Medical Center: Where Do We Stand?'
-  authors:
-  - Felicia Humphrey
-  - "Mariella Gasta\xF1aduy"
-  - James Smith
-  - Charles B Whitlow
-  publisher: Ochsner journal
-  date: '2017-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29230115
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:29157856
-  title: Susceptibility-Weighted Imaging and Magnetic Resonance Spectroscopy in Concussion.
-  authors:
-  - Ivan I Kirov
-  - Christopher T Whitlow
-  - Carlos Zamora
-  publisher: Neuroimaging clinics of North America
-  date: '2017-10-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29157856
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:29157847
   title: 'Functional MR Imaging: Blood Oxygen Level-Dependent and Resting State Techniques
     in Mild Traumatic Brain Injury.'
@@ -3637,39 +3654,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:29064902
-  title: 'The Role of Bowel Preparation in Colorectal Surgery: Results of the 2012-2015
-    ACS-NSQIP Data.'
-  authors:
-  - Aaron L Klinger
-  - Heather Green
-  - Dominique J Monlezun
-  - David Beck
-  - Brian Kann
-  - Herschel D Vargas
-  - Charles Whitlow
-  - David Margolin
-  publisher: Annals of surgery
-  date: '2019-04-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29064902
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:28992272
-  title: Neural predictors of emotional inertia in daily life.
-  authors:
-  - Christian E Waugh
-  - Elaine Z Shing
-  - Bradley M Avery
-  - Youngkyoo Jung
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  publisher: Social cognitive and affective neuroscience
-  date: '2017-09-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/28992272
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:28985932
   title: Machine Learning Applications to Resting-State Functional MR Imaging Analysis.
   authors:
@@ -3682,6 +3666,18 @@
   publisher: Neuroimaging clinics of North America
   date: '2017-11-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28985932
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29157856
+  title: Susceptibility-Weighted Imaging and Magnetic Resonance Spectroscopy in Concussion.
+  authors:
+  - Ivan I Kirov
+  - Christopher T Whitlow
+  - Carlos Zamora
+  publisher: Neuroimaging clinics of North America
+  date: '2017-10-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29157856
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3701,6 +3697,39 @@
     Intervention'
   date: '2017-09-04'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31656959
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28992272
+  title: Neural predictors of emotional inertia in daily life.
+  authors:
+  - Christian E Waugh
+  - Elaine Z Shing
+  - Bradley M Avery
+  - Youngkyoo Jung
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  publisher: Social cognitive and affective neuroscience
+  date: '2017-09-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28992272
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31656826
+  title: Automatic 1D Convolutional Neural Network-based Detection of Artifacts in
+    MEG acquired without Electrooculography or Electrocardiography.
+  authors:
+  - Prabhat Garg
+  - Elizabeth Davenport
+  - Gowtham Murugesan
+  - Ben Wagner
+  - Christopher Whitlow
+  - Joseph Maldjian
+  - Albert Montillo
+  publisher: '... International Workshop on Pattern Recognition in NeuroImaging. International
+    Workshop on Pattern Recognition in NeuroImaging'
+  date: '2017-07-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31656826
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3732,65 +3761,6 @@
     Kidney Foundation'
   date: '2017-06-23'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28648301
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:28638287
-  title: Use of Sodium Hyaluronate/Carboxymethylcellulose Bioresorbable Membrane in
-    Loop Ileostomy Construction Facilitates Stoma Closure.
-  authors:
-  - Danielle M Bertoni
-  - Kerry L Hammond
-  - David E Beck
-  - Terry C Hicks
-  - Charles B Whitlow
-  - H David Vargas
-  - David A Margolin
-  publisher: Ochsner journal
-  date: '2017-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/28638287
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:31656826
-  title: Automatic 1D Convolutional Neural Network-based Detection of Artifacts in
-    MEG acquired without Electrooculography or Electrocardiography.
-  authors:
-  - Prabhat Garg
-  - Elizabeth Davenport
-  - Gowtham Murugesan
-  - Ben Wagner
-  - Christopher Whitlow
-  - Joseph Maldjian
-  - Albert Montillo
-  publisher: '... International Workshop on Pattern Recognition in NeuroImaging. International
-    Workshop on Pattern Recognition in NeuroImaging'
-  date: '2017-07-20'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31656826
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:28372335
-  title: 'Effects of Regular and Long-Acting Insulin on Cognition and Alzheimer''s
-    Disease Biomarkers: A Pilot Clinical Trial.'
-  authors:
-  - Suzanne Craft
-  - Amy Claxton
-  - Laura D Baker
-  - Angela J Hanson
-  - Brenna Cholerton
-  - Emily H Trittschuh
-  - Deborah Dahl
-  - Erin Caulder
-  - Bryan Neth
-  - Thomas J Montine
-  - Youngkyoo Jung
-  - Joseph Maldjian
-  - Christopher Whitlow
-  - Seth Friedman
-  publisher: 'Journal of Alzheimer''s disease : JAD'
-  date: '2017-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/28372335
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3831,6 +3801,75 @@
   publisher: Journal of neurotrauma
   date: '2017-04-07'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28274184
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29230115
+  title: 'Interval Colorectal Cancers at Ochsner Medical Center: Where Do We Stand?'
+  authors:
+  - Felicia Humphrey
+  - Mariella Gastañaduy
+  - James Smith
+  - Charles B Whitlow
+  publisher: Ochsner journal
+  date: '2017-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29230115
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28638287
+  title: Use of Sodium Hyaluronate/Carboxymethylcellulose Bioresorbable Membrane in
+    Loop Ileostomy Construction Facilitates Stoma Closure.
+  authors:
+  - Danielle M Bertoni
+  - Kerry L Hammond
+  - David E Beck
+  - Terry C Hicks
+  - Charles B Whitlow
+  - H David Vargas
+  - David A Margolin
+  publisher: Ochsner journal
+  date: '2017-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28638287
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28372335
+  title: 'Effects of Regular and Long-Acting Insulin on Cognition and Alzheimer''s
+    Disease Biomarkers: A Pilot Clinical Trial.'
+  authors:
+  - Suzanne Craft
+  - Amy Claxton
+  - Laura D Baker
+  - Angela J Hanson
+  - Brenna Cholerton
+  - Emily H Trittschuh
+  - Deborah Dahl
+  - Erin Caulder
+  - Bryan Neth
+  - Thomas J Montine
+  - Youngkyoo Jung
+  - Joseph Maldjian
+  - Christopher Whitlow
+  - Seth Friedman
+  publisher: 'Journal of Alzheimer''s disease : JAD'
+  date: '2017-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28372335
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:27585913
+  title: 'Erratum to: Multi-Atlas Library for Eliminating Normalization Failures in
+    Non-Human Primates.'
+  authors:
+  - Joseph A Maldjian
+  - Carol A Shively
+  - Michael A Nader
+  - David P Friedman
+  - Christopher T Whitlow
+  publisher: Neuroinformatics
+  date: '2017-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27585913
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3878,21 +3917,6 @@
   publisher: Diabetes care
   date: '2016-10-04'
   link: https://www.ncbi.nlm.nih.gov/pubmed/27703028
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:27585913
-  title: 'Erratum to: Multi-Atlas Library for Eliminating Normalization Failures in
-    Non-Human Primates.'
-  authors:
-  - Joseph A Maldjian
-  - Carol A Shively
-  - Michael A Nader
-  - David P Friedman
-  - Christopher T Whitlow
-  publisher: Neuroinformatics
-  date: '2017-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/27585913
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -3973,6 +3997,20 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:26643442
+  title: Multi-Atlas Library for Eliminating Normalization Failures in Non-Human Primates.
+  authors:
+  - Joseph A Maldjian
+  - Carol A Shively
+  - Michael A Nader
+  - David P Friedman
+  - Christopher T Whitlow
+  publisher: Neuroinformatics
+  date: '2016-04-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26643442
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:26990090
   title: ATP1A3 Mutation in Adult Rapid-Onset Ataxia.
   authors:
@@ -4005,20 +4043,6 @@
   publisher: Diseases of the colon and rectum
   date: '2016-02-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/26734973
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:26643442
-  title: Multi-Atlas Library for Eliminating Normalization Failures in Non-Human Primates.
-  authors:
-  - Joseph A Maldjian
-  - Carol A Shively
-  - Michael A Nader
-  - David P Friedman
-  - Christopher T Whitlow
-  publisher: Neuroinformatics
-  date: '2016-04-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/26643442
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4198,6 +4222,19 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:24850577
+  title: Vervet MRI atlas and label map for fully automated morphometric analyses.
+  authors:
+  - Joseph A Maldjian
+  - James B Daunais
+  - David P Friedman
+  - Christopher T Whitlow
+  publisher: Neuroinformatics
+  date: '2014-10-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24850577
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:25205141
   title: 'Cerebral structural changes in diabetic kidney disease: African American-Diabetes
     Heart Study MIND.'
@@ -4220,16 +4257,23 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:24850577
-  title: Vervet MRI atlas and label map for fully automated morphometric analyses.
+- id: pubmed:24786802
+  title: Abnormal white matter integrity related to head impact exposure in a season
+    of high school varsity football.
   authors:
-  - Joseph A Maldjian
-  - James B Daunais
-  - David P Friedman
+  - Elizabeth M Davenport
   - Christopher T Whitlow
-  publisher: Neuroinformatics
-  date: '2014-10-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24850577
+  - Jillian E Urban
+  - Mark A Espeland
+  - Youngkyoo Jung
+  - Daryl A Rosenbaum
+  - Gerard A Gioia
+  - Alexander K Powers
+  - Joel D Stitzel
+  - Joseph A Maldjian
+  publisher: Journal of neurotrauma
+  date: '2014-07-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24786802
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4256,36 +4300,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:24786802
-  title: Abnormal white matter integrity related to head impact exposure in a season
-    of high school varsity football.
-  authors:
-  - Elizabeth M Davenport
-  - Christopher T Whitlow
-  - Jillian E Urban
-  - Mark A Espeland
-  - Youngkyoo Jung
-  - Daryl A Rosenbaum
-  - Gerard A Gioia
-  - Alexander K Powers
-  - Joel D Stitzel
-  - Joseph A Maldjian
-  publisher: Journal of neurotrauma
-  date: '2014-07-14'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24786802
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:24701263
-  title: The development of the colon and rectal surgery milestones.
-  authors:
-  - Charles B Whitlow
-  publisher: Journal of graduate medical education
-  date: '2014-03-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24701263
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:24699016
   title: 'Graph theoretical analysis of resting-state MEG data: Identifying interhemispheric
     connectivity and the default mode.'
@@ -4296,6 +4310,16 @@
   publisher: NeuroImage
   date: '2014-03-31'
   link: https://www.ncbi.nlm.nih.gov/pubmed/24699016
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:24701263
+  title: The development of the colon and rectal surgery milestones.
+  authors:
+  - Charles B Whitlow
+  publisher: Journal of graduate medical education
+  date: '2014-03-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24701263
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4317,18 +4341,20 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:24357999
-  title: 'Restorative proctocolectomy: the current ochsner experience.'
+- id: pubmed:24104997
+  title: 'Timing of colonoscopy after resection for colorectal cancer: are we looking
+    too soon?'
   authors:
-  - Shahrazad Talebinejad
-  - Terry C Hicks
-  - David A Margolin
-  - Charles B Whitlow
-  - H David Vargas
-  - David E Beck
-  publisher: Ochsner journal
-  date: '2013-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24357999
+  - M M Cone
+  - D E Beck
+  - T E Hicks
+  - J D Rea
+  - C B Whitlow
+  - H D Vargas
+  - D A Margolin
+  publisher: Diseases of the colon and rectum
+  date: '2013-11-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24104997
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4340,6 +4366,22 @@
   publisher: Gastroenterology clinics of North America
   date: '2013-10-18'
   link: https://www.ncbi.nlm.nih.gov/pubmed/24280405
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:24105693
+  title: Cerebral blood flow quantification in swine using pseudo-continuous arterial
+    spin labeling.
+  authors:
+  - Megan E Johnston
+  - Zhenlin Zheng
+  - Joseph A Maldjian
+  - Christopher T Whitlow
+  - Michael J Morykwas
+  - Youngkyoo Jung
+  publisher: 'Journal of magnetic resonance imaging : JMRI'
+  date: '2013-09-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24105693
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4361,39 +4403,6 @@
   publisher: Atherosclerosis
   date: '2013-09-10'
   link: https://www.ncbi.nlm.nih.gov/pubmed/24125414
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:24105693
-  title: Cerebral blood flow quantification in swine using pseudo-continuous arterial
-    spin labeling.
-  authors:
-  - Megan E Johnston
-  - Zhenlin Zheng
-  - Joseph A Maldjian
-  - Christopher T Whitlow
-  - Michael J Morykwas
-  - Youngkyoo Jung
-  publisher: 'Journal of magnetic resonance imaging : JMRI'
-  date: '2013-09-16'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24105693
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:24104997
-  title: 'Timing of colonoscopy after resection for colorectal cancer: are we looking
-    too soon?'
-  authors:
-  - M M Cone
-  - D E Beck
-  - T E Hicks
-  - J D Rea
-  - C B Whitlow
-  - H D Vargas
-  - D A Margolin
-  publisher: Diseases of the colon and rectum
-  date: '2013-11-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/24104997
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4481,6 +4490,33 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:23378178
+  title: Clinical applications of arterial spin labeling.
+  authors:
+  - Jonathan M Watts
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  publisher: NMR in biomedicine
+  date: '2013-02-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/23378178
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:24357999
+  title: 'Restorative proctocolectomy: the current ochsner experience.'
+  authors:
+  - Shahrazad Talebinejad
+  - Terry C Hicks
+  - David A Margolin
+  - Charles B Whitlow
+  - H David Vargas
+  - David E Beck
+  publisher: Ochsner journal
+  date: '2013-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24357999
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:23686213
   title: Evaluation of the extent and distribution of diffuse axonal injury from real
     world motor vehicle crashes - biomed 2013.
@@ -4493,18 +4529,6 @@
   publisher: Biomedical sciences instrumentation
   date: '2013-01-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/23686213
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:23378178
-  title: Clinical applications of arterial spin labeling.
-  authors:
-  - Jonathan M Watts
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  publisher: NMR in biomedicine
-  date: '2013-02-03'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/23378178
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4521,20 +4545,6 @@
   publisher: Journal of neurotrauma
   date: '2012-12-10'
   link: https://www.ncbi.nlm.nih.gov/pubmed/22928543
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:22846318
-  title: A method to investigate the size and shape variation of the lateral ventricles
-    with age.
-  authors:
-  - Jillian E Urban
-  - Joseph A Maldjian
-  - Christopher T Whitlow
-  - Joel D Stitzel
-  publisher: Biomedical sciences instrumentation
-  date: '2012-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/22846318
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4617,6 +4627,20 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:22846318
+  title: A method to investigate the size and shape variation of the lateral ventricles
+    with age.
+  authors:
+  - Jillian E Urban
+  - Joseph A Maldjian
+  - Christopher T Whitlow
+  - Joel D Stitzel
+  publisher: Biomedical sciences instrumentation
+  date: '2012-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22846318
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:22016732
   title: High dimensional classification of structural MRI Alzheimer's disease data
     based on large scale regularization.
@@ -4631,17 +4655,6 @@
   publisher: Frontiers in neuroinformatics
   date: '2011-10-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/22016732
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:21902493
-  title: Same-sex marriage and context-specific kinship terms.
-  authors:
-  - Patricia Ould
-  - C Julie Whitlow
-  publisher: Journal of homosexuality
-  date: '2011-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/21902493
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4672,28 +4685,14 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:21286288
-  title: Endoscopic treatment for lower gastrointestinal bleeding.
+- id: pubmed:21902493
+  title: Same-sex marriage and context-specific kinship terms.
   authors:
-  - Charles B Whitlow
-  publisher: Clinics in colon and rectal surgery
-  date: '2010-02-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/21286288
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:21265350
-  title: Variations in perioperative steroid management among surgical subspecialists.
-  authors:
-  - Kerry Hammond
-  - David A Margolin
-  - David E Beck
-  - Alan E Timmcke
-  - Terry C Hicks
-  - Charles B Whitlow
-  publisher: The American surgeon
-  date: '2010-12-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/21265350
+  - Patricia Ould
+  - C Julie Whitlow
+  publisher: Journal of homosexuality
+  date: '2011-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21902493
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4714,14 +4713,28 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:20676258
-  title: The medical and nonoperative treatment of diverticulitis.
+- id: pubmed:21265350
+  title: Variations in perioperative steroid management among surgical subspecialists.
   authors:
-  - Heath Beckham
+  - Kerry Hammond
+  - David A Margolin
+  - David E Beck
+  - Alan E Timmcke
+  - Terry C Hicks
+  - Charles B Whitlow
+  publisher: The American surgeon
+  date: '2010-12-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21265350
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:21286288
+  title: Endoscopic treatment for lower gastrointestinal bleeding.
+  authors:
   - Charles B Whitlow
   publisher: Clinics in colon and rectal surgery
-  date: '2009-08-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/20676258
+  date: '2010-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21286288
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4735,6 +4748,17 @@
   publisher: AJNR. American journal of neuroradiology
   date: '2009-09-17'
   link: https://www.ncbi.nlm.nih.gov/pubmed/19762463
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:20676258
+  title: The medical and nonoperative treatment of diverticulitis.
+  authors:
+  - Heath Beckham
+  - Charles B Whitlow
+  publisher: Clinics in colon and rectal surgery
+  date: '2009-08-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20676258
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4822,19 +4846,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:21603524
-  title: Evaluation and management of gastrointestinal bleeding.
-  authors:
-  - David E Beck
-  - David A Margolin
-  - Charles B Whitlow
-  - Kerry L Hammond
-  publisher: Ochsner journal
-  date: '2007-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/21603524
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:17698526
   title: 'Sacroplasty versus vertebroplasty: comparable clinical outcomes for the
     treatment of fracture-related pain.'
@@ -4847,21 +4858,6 @@
   publisher: AJNR. American journal of neuroradiology
   date: '2007-08-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/17698526
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:21603476
-  title: 'Rectal prolapse: a 10-year experience.'
-  authors:
-  - Kerry Hammond
-  - David E Beck
-  - David A Margolin
-  - Charles B Whitlow
-  - Alan E Timmcke
-  - Terry C Hicks
-  publisher: Ochsner journal
-  date: '2007-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/21603476
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -4878,6 +4874,34 @@
   publisher: American journal of surgery
   date: '2007-03-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/17320544
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:21603524
+  title: Evaluation and management of gastrointestinal bleeding.
+  authors:
+  - David E Beck
+  - David A Margolin
+  - Charles B Whitlow
+  - Kerry L Hammond
+  publisher: Ochsner journal
+  date: '2007-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21603524
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:21603476
+  title: 'Rectal prolapse: a 10-year experience.'
+  authors:
+  - Kerry Hammond
+  - David E Beck
+  - David A Margolin
+  - Charles B Whitlow
+  - Alan E Timmcke
+  - Terry C Hicks
+  publisher: Ochsner journal
+  date: '2007-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21603476
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -5058,22 +5082,6 @@
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:9751949
-  title: Brain imaging. Functional consequences of ethanol in the central nervous
-    system.
-  authors:
-  - D Lyons
-  - C T Whitlow
-  - H R Smith
-  - L J Porrino
-  publisher: 'Recent developments in alcoholism : an official publication of the American
-    Medical Society on Alcoholism, the Research Society on Alcoholism, and the National
-    Council on Alcoholism'
-  date: '1998-01-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/9751949
-  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:9738536
   title: Multiphasic consequences of the acute administration of ethanol on cerebral
     glucose metabolism in the rat.
@@ -5111,6 +5119,22 @@
   publisher: Alcoholism, clinical and experimental research
   date: '1998-02-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/9514304
+  term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:9751949
+  title: Brain imaging. Functional consequences of ethanol in the central nervous
+    system.
+  authors:
+  - D Lyons
+  - C T Whitlow
+  - H R Smith
+  - L J Porrino
+  publisher: 'Recent developments in alcoholism : an official publication of the American
+    Medical Society on Alcoholism, the Research Society on Alcoholism, and the National
+    Council on Alcoholism'
+  date: '1998-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/9751949
   term: Whitlow CT[Author] OR Whitlow C[Author] OR Whitlow Christopher[Author]
   plugin: pubmed.py
   file: pubmed.yaml
