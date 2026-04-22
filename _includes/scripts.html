@@ -6,5 +6,8 @@
 <!-- include all js in scripts folder -->
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
+  <script src="{{ script.path | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 {% endfor %}
+
+<!-- include all css in styles folder (cache-bust with build time) -->
+{% comment %} Styles are already emitted in styles.html; cache-busting there is handled similarly. {% endcomment %}
