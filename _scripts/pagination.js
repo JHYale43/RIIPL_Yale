@@ -8,7 +8,7 @@
 
 (function () {
   function init() {
-    var container = document.getElementById("publications");
+    var container = document.getElementById("publications-list");
     var nav = document.getElementById("publications-pagination");
     if (!container || !nav) return;
 

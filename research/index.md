@@ -11,7 +11,7 @@ nav:
 
 ## Publications
 
-<div id="publications" class="publications-list" data-page-size="20" markdown="1">
+<div id="publications-list" class="publications-list" data-page-size="20" markdown="1">
 
 {% assign sorted_citations = site.data.citations | sort: "date" | reverse %}
 {% assign current_year = "" %}
