@@ -1,0 +1,16 @@
+---
+---
+
+p {
+  margin: 18px 0;
+  text-align: left;
+  line-height: var(--spacing);
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}

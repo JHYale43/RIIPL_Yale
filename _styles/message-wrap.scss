@@ -1,0 +1,98 @@
+---
+---
+
+.message-wrap {
+  max-width: 900px;
+  margin: auto;
+  padding: 32px;
+  background-color: var(--background-alt);
+  color: var(--text);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  overflow: hidden; /* Ensure container clears floated elements */
+  position: relative;
+
+  .content {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .image-wrap {
+    float: right;
+    width: 200px; /* Set a reasonable width */
+    margin: 0 0 20px 20px; /* Adjust margin for spacing around the image */
+    shape-outside: circle(50%);
+    shape-margin: 10px;
+    clip-path: circle(100%);
+
+    img.wrap-image {
+      width: 100%; /* Full width within its container */
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover; /* Ensure image covers the circle properly */
+    }
+
+    figcaption {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      text-align: center;
+      font-style: normal;
+      margin-top: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: var(--text);
+
+      .name {
+        font-size: 0.95em;
+        font-weight: var(--semi-bold);
+      }
+
+      .titles {
+        font-size: 0.8em;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    color: inherit;
+    font-style: normal;
+  }
+}
+
+.official-website-wrap {
+  margin: 28px 0 8px;
+}
+
+.official-website-wrap .button {
+  padding: 14px 28px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .message-wrap {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      order: 1;
+    }
+
+    .image-wrap {
+      order: 2;
+      float: none;
+      margin: 20px auto;
+      width: 70%;
+      shape-outside: none;
+      clip-path: none;
+      text-align: center;
+    }
+  }
+}

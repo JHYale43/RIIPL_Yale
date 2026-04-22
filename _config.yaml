@@ -1,0 +1,79 @@
+# site properties and page defaults
+title: Welcome to RIIPL
+subtitle: The Radiology Informatics and Image Processing Laboratory
+description: This is the GitHub Website for the Yale School of Medicine RIIPL located in New Haven, CT USA
+header:
+footer:
+logo: images/yale-radiology-navy.png
+logo-text: false
+proofer: false
+url: https://jhyale43.github.io
+baseurl: /RIIPL_Yale
+
+# site social media and other links
+links:
+  email: riipl_info_DL@yale.edu
+  github: JHYale43/RIIPL_Yale
+  #twitter: YourLabHandle
+  #youtube: YourLabChannel
+  #orcid: 0000-0001-8713-9213
+  #google-scholar: ETJoidYAAAAJ
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # # markdown files in /_posts
+  # - scope:
+  #     type: "posts"
+  #   values:
+  #     layout: post
+
+collections:
+  members:
+    output: true
+  projects:
+    output: true
+  research:
+    output: true
+  posts:
+    output: false
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff

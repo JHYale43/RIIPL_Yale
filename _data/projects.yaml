@@ -1,0 +1,26 @@
+- title: Venal Vein Compression
+  subtitle: Automated identification of Nutcracker Syndrome conditions using ultrasound images
+  group: featured
+  image: images/photo.jpg
+  description: RIIPL is working with the development team to create an advanced AI model that can recognize and categorize a difficult-to-diagnose condition.
+
+- title: Shape Analysis
+  subtitle: Creating a shape analysis pipeline for brain regions of interest.
+  group: featured
+  image: images/photo.jpg
+  description: The lab is creating an automated shape-analysis pipeline to identify significant brain region differences within groups.
+
+- title: Summer Student Project
+  subtitle: Looking for voxelwise differences in cerebral bloodflow
+  image: images/photo.jpg
+  description: A summer student program studies voxelwise differences in cerebral blood flow in high school football players.
+
+- title: Green Imaging Initiatives
+  subtitle: Reducing the electricity usage by the radiology department.
+  image: images/photo.jpg
+  description: RIIPL is developing a monitoring system to assist the radiology department in tracking and reducing the use of electricity by scanners and workstations.
+
+- title: Imaging Education Tool development
+  subtitle: Better Image viewing in Radiology Education using the OHIF viewer.
+  image: images/photo.jpg
+  description: RIIPL is collaborating with IT Services to utilize the Open Health Imaging Foundation (OHIF) Viewer to modernize medical imaging education.

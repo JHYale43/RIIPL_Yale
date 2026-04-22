@@ -1,0 +1,18 @@
+---
+---
+
+blockquote {
+  margin: 16px 0;
+  padding: 8px 20px;
+  border-left: solid 3px var(--light-gray);
+  color: var(--dark-gray);
+  font-style: italic;
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
