@@ -11,6 +11,8 @@ nav:
 
 ## Publications
 
+<div id="publications" class="publications-list" data-page-size="20" markdown="1">
+
 {% assign sorted_citations = site.data.citations | sort: "date" | reverse %}
 {% assign current_year = "" %}
 {% for citation in sorted_citations -%}
@@ -23,3 +25,7 @@ nav:
 {% endif -%}
 {% include citation.html title=citation.title authors=citation.authors publisher=citation.publisher date=citation.date id=citation.id link=citation.link style="rich" %}
 {% endfor %}
+
+</div>
+
+<nav id="publications-pagination" class="pagination" aria-label="Publications pages"></nav>
