@@ -5,6 +5,9 @@ role: programmer
 description: Programmer Analyst
 aliases:
   - Jeremy P. Hudson
+research_search:
+  - Jeremy Hudson
+  - Jeremy P Hudson
 links:
   linkedin: jeremy-h-419881a0
 ---

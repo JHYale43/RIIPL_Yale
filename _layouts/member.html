@@ -20,23 +20,28 @@ layout: default
 
 {{ content }}
 
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
+{% unless page.hide_research_link %}
+  {% assign aliases = page.research_search
+    | default: page.aliases
+    | default: page.name
+    | default: page.title
+    | join: ","
+    | split: ","
+    | array_filter
+  %}
 
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+  {% if aliases.size > 0 %}
+    {% capture search -%}
+      research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+    {%- endcapture %}
 
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
+    <p class="center">
+      <a href="{{ search | relative_url }}">
+        Search for {{ page.name | default: page.title }}'s papers on the Research page
+      </a>
+    </p>
+  {% endif %}
+{% endunless %}
 
 {% capture search -%}
   blog/?search={{ page.name }}

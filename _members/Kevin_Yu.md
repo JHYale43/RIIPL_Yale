@@ -4,6 +4,8 @@ image: images/staff_photos/kevin_yu.jpg
 role: md-phd
 description: Research Associate
 group: md-phd
+research_search:
+  - Kevin C Yu
 ---
 
 Kevin Yu, PhD, is a Research Associate in the Department of Radiology and Biomedical Imaging at Yale School of Medicine. His research focuses on multimodal neuroimaging, including magnetoencephalography (MEG) and MRI, to study brain function and its relationship to underlying neurobiological systems.

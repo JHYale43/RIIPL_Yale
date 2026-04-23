@@ -5,7 +5,7 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation-container, .post-excerpt";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -168,6 +168,11 @@
     updateInfoBox(query, x, n);
     updateTags(query);
     highlightMatches(parts);
+    window.dispatchEvent(
+      new CustomEvent("searchupdated", {
+        detail: { query, results: x, total: n }
+      })
+    );
   };
 
   // update url based on query

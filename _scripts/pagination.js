@@ -37,16 +37,7 @@
     var totalPages = Math.ceil(citations.length / pageSize);
     var currentPage = 1;
 
-    function renderPage(page) {
-      currentPage = Math.min(Math.max(1, page), totalPages);
-      var start = (currentPage - 1) * pageSize;
-      var end = start + pageSize;
-
-      for (var i = 0; i < citations.length; i++) {
-        citations[i].style.display = i >= start && i < end ? "" : "none";
-      }
-
-      // Hide year headings whose citations are all off the current page.
+    function updateYearVisibility() {
       for (var j = 0; j < years.length; j++) {
         var heading = years[j];
         var next = heading.nextElementSibling;
@@ -64,7 +55,19 @@
         }
         heading.style.display = anyVisible ? "" : "none";
       }
+    }
 
+    function renderPage(page) {
+      currentPage = Math.min(Math.max(1, page), totalPages);
+      var start = (currentPage - 1) * pageSize;
+      var end = start + pageSize;
+
+      for (var i = 0; i < citations.length; i++) {
+        citations[i].style.display = i >= start && i < end ? "" : "none";
+      }
+
+      // Hide year headings whose citations are all off the current page.
+      updateYearVisibility();
       renderNav();
     }
 
@@ -149,6 +152,16 @@
         )
       );
     }
+
+    window.addEventListener("searchupdated", function (event) {
+      var query = (event.detail && event.detail.query) || "";
+      if (query.trim()) {
+        nav.style.display = "none";
+        updateYearVisibility();
+      } else {
+        renderPage(1);
+      }
+    });
 
     renderPage(1);
   }

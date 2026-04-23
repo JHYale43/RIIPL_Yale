@@ -5,6 +5,9 @@ role: research_asst
 description: Associate Research Scientist
 aliases:
   - Mohammad I Kawas
+research_search:
+  - Mohammad Kawas
+  - Mohammad I Kawas
 links:
   linkedin: mohammad-iyas-kawas-5816a8150
 ---

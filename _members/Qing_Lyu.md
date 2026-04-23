@@ -2,6 +2,8 @@
 name: Qing Lyu
 image: images/staff_photos/qing_lyu_cropped.jpg
 role: asst_professor
+research_search:
+  - Qing Lyu
 links:
   github: QingLyu0828
   website: https://qinglyu0828.github.io

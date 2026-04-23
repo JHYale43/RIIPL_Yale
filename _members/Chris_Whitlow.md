@@ -7,6 +7,9 @@ aliases:
   - Christopher T. Whitlow
   - Christopher T Whitlow
   - C T Whitlow
+research_search:
+  - Christopher T Whitlow
+  - C T Whitlow
 links:
   linkedin: christopher-t-whitlow-md-phd-mha-fasfnr-91a239181
   orcid: 0000-0003-2392-8293
