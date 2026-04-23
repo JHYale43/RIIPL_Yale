@@ -46,11 +46,11 @@
 
 <title>{{ fulltitle }}</title>
 
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/icon-16.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/icon-32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ '/images/icon-192.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="512x512" href="{{ '/images/icon-512.png' | relative_url }}">
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/icon-16.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/icon-32.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/images/icon-192.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="apple-touch-icon" sizes="512x512" href="{{ '/images/icon-512.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="icon" href="{{ icon }}?v={{ site.time | date: '%s' }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
