@@ -33,6 +33,7 @@
   background: var(--background);
   border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
   border-radius: 10px;
+  text-align: left;
   transition:
     border-color 180ms ease,
     transform 180ms ease,
@@ -88,7 +89,10 @@ html[data-dark="true"] .focus-card .focus-icon {
 
 .focus-intro {
   max-width: 780px;
+  margin-top: 0;
   margin-bottom: 8px;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .focus-disclaimer {
@@ -99,6 +103,7 @@ html[data-dark="true"] .focus-card .focus-icon {
   font-size: 0.9rem;
   color: color-mix(in srgb, currentColor 70%, transparent);
   border-radius: 0 6px 6px 0;
+  text-align: left;
 }
 
 html[data-dark="true"] .focus-disclaimer {

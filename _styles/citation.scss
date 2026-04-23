@@ -29,6 +29,14 @@ $wrap: 800px;
   margin-bottom: 8px;
 }
 
+.publications-list > h3:first-child {
+  margin-bottom: 8px;
+}
+
+.publications-list > .citation-container:first-of-type .citation {
+  margin-top: 0;
+}
+
 .citation-image {
   position: relative;
   width: $thumb-size;

@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-{% include section.html %}
-
 <div id="publications-list" class="publications-list" data-page-size="10" markdown="1">
 
 {% assign sorted_citations = site.data.citations | sort: "date" | reverse %}
