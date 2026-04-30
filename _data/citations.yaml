@@ -296,47 +296,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s12885-025-15222-5
-- id: pubmed:41145886
-  title: Longitudinal measures of monkey brain structure and activity through adolescence
-    predict cognitive maturation.
-  authors:
-  - Junda Zhu
-  - Clément M Garin
-  - Xue-Lian Qi
-  - Anna Machado
-  - Zhengyang Wang
-  - Suliann Ben Hamed
-  - Terrence R Stanford
-  - Emilio Salinas
-  - Christopher T Whitlow
-  - Adam W Anderson
-  - Xin Maizie Zhou
-  - Finnegan J Calabro
-  - Beatriz Luna
-  - Christos Constantinidis
-  publisher: Nature neuroscience
-  date: '2025-11-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/41145886/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1038/s41593-025-02076-0
-- id: pubmed:40888012
-  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
-  authors:
-  - Ihtsham U Haq
-  - Kristina Simonyan
-  - Eleonora Napoli
-  - Laurie J Ozelius
-  - Beverly M Snively
-  - Christopher T Whitlow
-  - Kathleen J Sweadner
-  - Allison Brashear
-  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
-  date: '2025-11-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/mds.30320
 - id: pubmed:40717441
   title: The differential relationship between white matter cerebrovascular perfusion
     and microstructure between normal cognition and mild cognitive impairment.
@@ -361,6 +320,47 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1177/13872877251360740
+- id: pubmed:40888012
+  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
+  authors:
+  - Ihtsham U Haq
+  - Kristina Simonyan
+  - Eleonora Napoli
+  - Laurie J Ozelius
+  - Beverly M Snively
+  - Christopher T Whitlow
+  - Kathleen J Sweadner
+  - Allison Brashear
+  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/mds.30320
+- id: pubmed:41145886
+  title: Longitudinal measures of monkey brain structure and activity through adolescence
+    predict cognitive maturation.
+  authors:
+  - Junda Zhu
+  - Clément M Garin
+  - Xue-Lian Qi
+  - Anna Machado
+  - Zhengyang Wang
+  - Suliann Ben Hamed
+  - Terrence R Stanford
+  - Emilio Salinas
+  - Christopher T Whitlow
+  - Adam W Anderson
+  - Xin Maizie Zhou
+  - Finnegan J Calabro
+  - Beatriz Luna
+  - Christos Constantinidis
+  publisher: Nature neuroscience
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/41145886/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1038/s41593-025-02076-0
 - id: pubmed:40675469
   title: Multimodal radiopathomics signature for prediction of response to immunotherapy-based
     combination therapy in gastric cancer using interpretable machine learning.
@@ -445,6 +445,27 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3390/cancers17182980
+- id: pubmed:40639970
+  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
+    Therapies.
+  authors:
+  - Ana M Franceschi
+  - Graham Keir
+  - Tammie L S Benzinger
+  - Petrice M Cogswell
+  - Farzana Z Ali
+  - Jeffrey R Petrella
+  - Jeffrey W Prescott
+  - Christopher T Whitlow
+  - Greg Zaharchuk
+  - Jason W Allen
+  - American Society of Functional Neuroradiology (ASFNR)
+  publisher: AJNR. American journal of neuroradiology
+  date: '2025-08-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40639970/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A8738
 - id: pubmed:40329815
   title: Correlating Magnetoencephalography, Diffusion Kurtosis Imaging, Biomechanics,
     and Neuropsychology in American Youth Football.
@@ -471,27 +492,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2024.0222
-- id: pubmed:40639970
-  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
-    Therapies.
-  authors:
-  - Ana M Franceschi
-  - Graham Keir
-  - Tammie L S Benzinger
-  - Petrice M Cogswell
-  - Farzana Z Ali
-  - Jeffrey R Petrella
-  - Jeffrey W Prescott
-  - Christopher T Whitlow
-  - Greg Zaharchuk
-  - Jason W Allen
-  - American Society of Functional Neuroradiology (ASFNR)
-  publisher: AJNR. American journal of neuroradiology
-  date: '2025-08-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/40639970/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A8738
 - id: pubmed:40613474
   title: Evaluation of plasma p-tau217 for detecting amyloid pathology in a heterogeneous
     community-based cohort.
@@ -734,6 +734,29 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3174/ajnr.A8469
+- id: pubmed:39803742
+  title: Utilizing Quantitative Analysis of CSF Volume from Clinical T1-Weighted MRI
+    to Predict Thrombectomy Outcomes.
+  authors:
+  - Mohammad I Kawas
+  - Ahmad Shamulzai
+  - Kyle M Atcheson
+  - Alex C Horn
+  - Renate Ma
+  - Carol Kittel
+  - Brian Curry
+  - Megan Lipford
+  - Jeongchul Kim
+  - Kiran K Solingapuram Sai
+  - Stacey Q Wolfe
+  - Christopher T Whitlow
+  publisher: 'Journal of neuroimaging : official journal of the American Society of
+    Neuroimaging'
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39803742/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1111/jon.70013
 - id: pubmed:39731855
   title: Corrigendum to-"Ca2+ and CACNA1H mediate targeted suppression of breast cancer
     brain metastasis by AM RF EMF"-[eBiomedicine, 44 (2019) 194-208].
@@ -793,29 +816,6 @@
   link: https://pubmed.ncbi.nlm.nih.gov/41409187/
   plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:39803742
-  title: Utilizing Quantitative Analysis of CSF Volume from Clinical T1-Weighted MRI
-    to Predict Thrombectomy Outcomes.
-  authors:
-  - Mohammad I Kawas
-  - Ahmad Shamulzai
-  - Kyle M Atcheson
-  - Alex C Horn
-  - Renate Ma
-  - Carol Kittel
-  - Brian Curry
-  - Megan Lipford
-  - Jeongchul Kim
-  - Kiran K Solingapuram Sai
-  - Stacey Q Wolfe
-  - Christopher T Whitlow
-  publisher: 'Journal of neuroimaging : official journal of the American Society of
-    Neuroimaging'
-  date: '2025-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/39803742/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1111/jon.70013
 - id: pubmed:39235436
   title: 'Normative Neuroimaging Library: Designing a Comprehensive and Demographically
     Diverse Dataset of Healthy Controls to Support Traumatic Brain Injury Diagnostic
@@ -1293,39 +1293,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1093/cercor/bhad463
-- id: pubmed:37463061
-  title: 'CARE4Kids Study: Endophenotypes of Persistent Post-Concussive Symptoms in
-    Adolescents: Study Rationale and Protocol.'
-  authors:
-  - Christopher C Giza
-  - Gerard Gioia
-  - Lawrence J Cook
-  - Robert Asarnow
-  - Aliyah Snyder
-  - Talin Babikian
-  - Paul Thompson
-  - Jeffery J Bazarian
-  - Christopher T Whitlow
-  - Christopher M Miles
-  - Scott Otallah
-  - Joshua Kamins
-  - Nyaz Didehbani
-  - Philip E Rosenbaum
-  - Sara P D Chrisman
-  - Christopher G Vaughan
-  - Munro Cullum
-  - David M Popoli
-  - Meeryo Choe
-  - Jessica Gill
-  - Emily L Dennis
-  - Christine L Mac Donald
-  - Frederick P Rivara
-  publisher: Journal of neurotrauma
-  date: '2024-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/37463061/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1089/neu.2023.0073
 - id: pubmed:37865197
   title: 'Delayed Imaging Changes 18 Months or Longer After Stereotactic Radiosurgery
     for Brain Metastases: Necrosis or Progression.'
@@ -1371,6 +1338,39 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.neuroimage.2023.120491
+- id: pubmed:37463061
+  title: 'CARE4Kids Study: Endophenotypes of Persistent Post-Concussive Symptoms in
+    Adolescents: Study Rationale and Protocol.'
+  authors:
+  - Christopher C Giza
+  - Gerard Gioia
+  - Lawrence J Cook
+  - Robert Asarnow
+  - Aliyah Snyder
+  - Talin Babikian
+  - Paul Thompson
+  - Jeffery J Bazarian
+  - Christopher T Whitlow
+  - Christopher M Miles
+  - Scott Otallah
+  - Joshua Kamins
+  - Nyaz Didehbani
+  - Philip E Rosenbaum
+  - Sara P D Chrisman
+  - Christopher G Vaughan
+  - Munro Cullum
+  - David M Popoli
+  - Meeryo Choe
+  - Jessica Gill
+  - Emily L Dennis
+  - Christine L Mac Donald
+  - Frederick P Rivara
+  publisher: Journal of neurotrauma
+  date: '2024-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/37463061/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1089/neu.2023.0073
 - id: pubmed:37961556
   title: 'Mediterranean Diet Protects Against a Neuroinflammatory Cortical Transcriptome:
     Associations with Brain Volumetrics, Peripheral Inflammation, Social Isolation
@@ -1478,24 +1478,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s42492-023-00136-5
-- id: pubmed:36574316
-  title: Reply.
-  authors:
-  - P M Cogswell
-  - C R Jack
-  - J A Barakos
-  - F Barkhof
-  - T S Benzinger
-  - C A Raji
-  - T Y Poussaint
-  - V K Ramanan
-  - C T Whitlow
-  publisher: AJNR. American journal of neuroradiology
-  date: '2023-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7731
 - id: pubmed:36779071
   title: Rapid-onset dystonia-parkinsonism is associated with reduced cerebral blood
     flow without gray matter changes.
@@ -1515,6 +1497,24 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3389/fneur.2023.1116723
+- id: pubmed:36574316
+  title: Reply.
+  authors:
+  - P M Cogswell
+  - C R Jack
+  - J A Barakos
+  - F Barkhof
+  - T S Benzinger
+  - C A Raji
+  - T Y Poussaint
+  - V K Ramanan
+  - C T Whitlow
+  publisher: AJNR. American journal of neuroradiology
+  date: '2023-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7731
 - id: pubmed:36335526
   title: 'Long term survivors of stereotactic radiosurgery for brain metastases: do
     distant brain failures reach a plateau and what factors are associated with a
@@ -1750,6 +1750,26 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12429
+- id: pubmed:35061991
+  title: Cumulative strain-based metrics for predicting subconcussive head impact
+    exposure-related imaging changes in a cohort of American youth football players.
+  authors:
+  - Logan E Miller
+  - Jillian E Urban
+  - Mark A Espeland
+  - Michael P Walkup
+  - James M Holcomb
+  - Elizabeth M Davenport
+  - Alexander K Powers
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  publisher: Journal of neurosurgery. Pediatrics
+  date: '2022-04-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3171/2021.10.PEDS21355
 - id: pubmed:34310039
   title: Comparing data-driven and hypothesis-driven MRI-based predictors of cognitive
     impairment in individuals from the Atherosclerosis Risk in Communities (ARIC)
@@ -1773,26 +1793,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12427
-- id: pubmed:35061991
-  title: Cumulative strain-based metrics for predicting subconcussive head impact
-    exposure-related imaging changes in a cohort of American youth football players.
-  authors:
-  - Logan E Miller
-  - Jillian E Urban
-  - Mark A Espeland
-  - Michael P Walkup
-  - James M Holcomb
-  - Elizabeth M Davenport
-  - Alexander K Powers
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  publisher: Journal of neurosurgery. Pediatrics
-  date: '2022-04-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3171/2021.10.PEDS21355
 - id: pubmed:34310044
   title: 'Mediterranean and Western diet effects on Alzheimer''s disease biomarkers,
     cerebral perfusion, and cognition in mid-life: A randomized trial.'
@@ -1815,6 +1815,25 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12421
+- id: pubmed:35310523
+  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
+    with aging in nonhuman primates.
+  authors:
+  - Brett M Frye
+  - Suzanne Craft
+  - Thomas C Register
+  - Jeongchul Kim
+  - Christopher T Whitlow
+  - Richard A Barcus
+  - Samuel N Lockhart
+  - Kiran Kumar Solingapuram Sai
+  - Carol A Shively
+  publisher: Alzheimer's & dementia (New York, N. Y.)
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/trc2.12284
 - id: pubmed:36213243
   title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
     among people with risk of cognitive decline.'
@@ -1906,25 +1925,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3233/JAD-220646
-- id: pubmed:35310523
-  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
-    with aging in nonhuman primates.
-  authors:
-  - Brett M Frye
-  - Suzanne Craft
-  - Thomas C Register
-  - Jeongchul Kim
-  - Christopher T Whitlow
-  - Richard A Barcus
-  - Samuel N Lockhart
-  - Kiran Kumar Solingapuram Sai
-  - Carol A Shively
-  publisher: Alzheimer's & dementia (New York, N. Y.)
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/trc2.12284
 - id: pubmed:34764354
   title: Apolipoprotein E levels in the amygdala and prefrontal cortex predict relative
     regional brain volumes in irradiated Rhesus macaques.
@@ -1965,43 +1965,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.neuroimage.2021.118402
-- id: pubmed:34503943
-  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
-    following Concussion.
-  authors:
-  - D D Reddy
-  - E M Davenport
-  - F F Yu
-  - B Wagner
-  - J E Urban
-  - C T Whitlow
-  - J D Stitzel
-  - J A Maldjian
-  publisher: AJNR. American journal of neuroradiology
-  date: '2021-10-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7232
-- id: pubmed:34549344
-  title: Relationship Between Time-Weighted Head Impact Exposure on Directional Changes
-    in Diffusion Imaging in Youth Football Players.
-  authors:
-  - Suraj K Puvvada
-  - Elizabeth M Davenport
-  - James M Holcomb
-  - Logan E Miller
-  - Christopher T Whitlow
-  - Alexander K Powers
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  - Jillian E Urban
-  publisher: Annals of biomedical engineering
-  date: '2021-10-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/34549344/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1007/s10439-021-02862-4
 - id: pubmed:34039024
   title: Regional White Matter Diffusion Changes Associated with the Cumulative Tensile
     Strain and Strain Rate in Nonconcussed Youth Football Players.
@@ -2024,6 +1987,43 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2020.7580
+- id: pubmed:34549344
+  title: Relationship Between Time-Weighted Head Impact Exposure on Directional Changes
+    in Diffusion Imaging in Youth Football Players.
+  authors:
+  - Suraj K Puvvada
+  - Elizabeth M Davenport
+  - James M Holcomb
+  - Logan E Miller
+  - Christopher T Whitlow
+  - Alexander K Powers
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  - Jillian E Urban
+  publisher: Annals of biomedical engineering
+  date: '2021-10-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/34549344/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1007/s10439-021-02862-4
+- id: pubmed:34503943
+  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
+    following Concussion.
+  authors:
+  - D D Reddy
+  - E M Davenport
+  - F F Yu
+  - B Wagner
+  - J E Urban
+  - C T Whitlow
+  - J D Stitzel
+  - J A Maldjian
+  publisher: AJNR. American journal of neuroradiology
+  date: '2021-10-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7232
 - id: pubmed:34233941
   title: Feasibility and Biological Activity of a Ketogenic/Intermittent-Fasting Diet
     in Patients With Glioma.
