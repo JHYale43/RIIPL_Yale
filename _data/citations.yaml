@@ -22,7 +22,7 @@
   - Timothy M Hughes
   - Mohamad Habes
   publisher: AJNR. American journal of neuroradiology
-  date: '2026-04-23'
+  date: '2026-05-04'
   link: https://pubmed.ncbi.nlm.nih.gov/41397892/
   plugin: pubmed-direct.py
   file: pubmed.yaml
@@ -734,6 +734,38 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3174/ajnr.A8469
+- id: pubmed:39731855
+  title: Corrigendum to-"Ca2+ and CACNA1H mediate targeted suppression of breast cancer
+    brain metastasis by AM RF EMF"-[eBiomedicine, 44 (2019) 194-208].
+  authors:
+  - Sambad Sharma
+  - Shih-Ying Wu
+  - Hugo Jimenez
+  - Fei Xing
+  - Dongqin Zhu
+  - Yin Liu
+  - Kerui Wu
+  - Abhishek Tyagi
+  - Dan Zhao
+  - Hui-Wen Lo
+  - Linda Metheny-Barlow
+  - Peiqing Sun
+  - Daniel J Bourland
+  - Michael D Chan
+  - Alexandra Thomas
+  - Alexandre Barbault
+  - Ralph B D'Agostino
+  - Christopher T Whitlow
+  - Volker Kirchner
+  - Carl Blackman
+  - Boris Pasche
+  - Kounosuke Watabe
+  publisher: EBioMedicine
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/39731855/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.ebiom.2024.105541
 - id: pubmed:39803742
   title: Utilizing Quantitative Analysis of CSF Volume from Clinical T1-Weighted MRI
     to Predict Thrombectomy Outcomes.
@@ -784,38 +816,6 @@
   link: https://pubmed.ncbi.nlm.nih.gov/41409187/
   plugin: pubmed-direct.py
   file: pubmed.yaml
-- id: pubmed:39731855
-  title: Corrigendum to-"Ca2+ and CACNA1H mediate targeted suppression of breast cancer
-    brain metastasis by AM RF EMF"-[eBiomedicine, 44 (2019) 194-208].
-  authors:
-  - Sambad Sharma
-  - Shih-Ying Wu
-  - Hugo Jimenez
-  - Fei Xing
-  - Dongqin Zhu
-  - Yin Liu
-  - Kerui Wu
-  - Abhishek Tyagi
-  - Dan Zhao
-  - Hui-Wen Lo
-  - Linda Metheny-Barlow
-  - Peiqing Sun
-  - Daniel J Bourland
-  - Michael D Chan
-  - Alexandra Thomas
-  - Alexandre Barbault
-  - Ralph B D'Agostino
-  - Christopher T Whitlow
-  - Volker Kirchner
-  - Carl Blackman
-  - Boris Pasche
-  - Kounosuke Watabe
-  publisher: EBioMedicine
-  date: '2025-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/39731855/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1016/j.ebiom.2024.105541
 - id: pubmed:39235436
   title: 'Normative Neuroimaging Library: Designing a Comprehensive and Demographically
     Diverse Dataset of Healthy Controls to Support Traumatic Brain Injury Diagnostic
@@ -1478,24 +1478,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s42492-023-00136-5
-- id: pubmed:36574316
-  title: Reply.
-  authors:
-  - P M Cogswell
-  - C R Jack
-  - J A Barakos
-  - F Barkhof
-  - T S Benzinger
-  - C A Raji
-  - T Y Poussaint
-  - V K Ramanan
-  - C T Whitlow
-  publisher: AJNR. American journal of neuroradiology
-  date: '2023-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7731
 - id: pubmed:36779071
   title: Rapid-onset dystonia-parkinsonism is associated with reduced cerebral blood
     flow without gray matter changes.
@@ -1515,6 +1497,24 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3389/fneur.2023.1116723
+- id: pubmed:36574316
+  title: Reply.
+  authors:
+  - P M Cogswell
+  - C R Jack
+  - J A Barakos
+  - F Barkhof
+  - T S Benzinger
+  - C A Raji
+  - T Y Poussaint
+  - V K Ramanan
+  - C T Whitlow
+  publisher: AJNR. American journal of neuroradiology
+  date: '2023-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7731
 - id: pubmed:36335526
   title: 'Long term survivors of stereotactic radiosurgery for brain metastases: do
     distant brain failures reach a plateau and what factors are associated with a
@@ -1815,6 +1815,27 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12421
+- id: pubmed:36213243
+  title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
+    among people with risk of cognitive decline.'
+  authors:
+  - Donghoon Kim
+  - Timothy M Hughes
+  - Megan E Lipford
+  - Suzanne Craft
+  - Laura D Baker
+  - Samuel N Lockhart
+  - Christopher T Whitlow
+  - Stephanie E Okonmah-Obazee
+  - Christina E Hugenschmidt
+  - Matthew Bobinski
+  - Youngkyoo Jung
+  publisher: Frontiers in physiology
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/36213243/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fphys.2022.1020999
 - id: pubmed:35814618
   title: Vascular and microstructural markers of cognitive pathology.
   authors:
@@ -1840,25 +1861,25 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/dad2.12332
-- id: pubmed:35295607
-  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
-    in a Rodent Model of Cocaine Abuse.
+- id: pubmed:35310523
+  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
+    with aging in nonhuman primates.
   authors:
-  - Naresh Damuka
-  - Thomas J Martin
-  - Avinash H Bansode
-  - Ivan Krizan
-  - Conner W Martin
-  - Mack Miller
+  - Brett M Frye
+  - Suzanne Craft
+  - Thomas C Register
+  - Jeongchul Kim
   - Christopher T Whitlow
-  - Michael A Nader
+  - Richard A Barcus
+  - Samuel N Lockhart
   - Kiran Kumar Solingapuram Sai
-  publisher: Frontiers in medicine
+  - Carol A Shively
+  publisher: Alzheimer's & dementia (New York, N. Y.)
   date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
+  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
   plugin: pubmed-direct.py
   file: pubmed.yaml
-  doi: 10.3389/fmed.2022.817274
+  doi: 10.1002/trc2.12284
 - id: pubmed:36314205
   title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
     Brain Microstructure, Perfusion, and Cognition.
@@ -1885,46 +1906,25 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3233/JAD-220646
-- id: pubmed:36213243
-  title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
-    among people with risk of cognitive decline.'
+- id: pubmed:35295607
+  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
+    in a Rodent Model of Cocaine Abuse.
   authors:
-  - Donghoon Kim
-  - Timothy M Hughes
-  - Megan E Lipford
-  - Suzanne Craft
-  - Laura D Baker
-  - Samuel N Lockhart
+  - Naresh Damuka
+  - Thomas J Martin
+  - Avinash H Bansode
+  - Ivan Krizan
+  - Conner W Martin
+  - Mack Miller
   - Christopher T Whitlow
-  - Stephanie E Okonmah-Obazee
-  - Christina E Hugenschmidt
-  - Matthew Bobinski
-  - Youngkyoo Jung
-  publisher: Frontiers in physiology
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/36213243/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3389/fphys.2022.1020999
-- id: pubmed:35310523
-  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
-    with aging in nonhuman primates.
-  authors:
-  - Brett M Frye
-  - Suzanne Craft
-  - Thomas C Register
-  - Jeongchul Kim
-  - Christopher T Whitlow
-  - Richard A Barcus
-  - Samuel N Lockhart
+  - Michael A Nader
   - Kiran Kumar Solingapuram Sai
-  - Carol A Shively
-  publisher: Alzheimer's & dementia (New York, N. Y.)
+  publisher: Frontiers in medicine
   date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
+  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
   plugin: pubmed-direct.py
   file: pubmed.yaml
-  doi: 10.1002/trc2.12284
+  doi: 10.3389/fmed.2022.817274
 - id: pubmed:34764354
   title: Apolipoprotein E levels in the amygdala and prefrontal cortex predict relative
     regional brain volumes in irradiated Rhesus macaques.
@@ -1965,24 +1965,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.neuroimage.2021.118402
-- id: pubmed:34503943
-  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
-    following Concussion.
-  authors:
-  - D D Reddy
-  - E M Davenport
-  - F F Yu
-  - B Wagner
-  - J E Urban
-  - C T Whitlow
-  - J D Stitzel
-  - J A Maldjian
-  publisher: AJNR. American journal of neuroradiology
-  date: '2021-10-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7232
 - id: pubmed:34039024
   title: Regional White Matter Diffusion Changes Associated with the Cumulative Tensile
     Strain and Strain Rate in Nonconcussed Youth Football Players.
@@ -2005,6 +1987,24 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2020.7580
+- id: pubmed:34503943
+  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
+    following Concussion.
+  authors:
+  - D D Reddy
+  - E M Davenport
+  - F F Yu
+  - B Wagner
+  - J E Urban
+  - C T Whitlow
+  - J D Stitzel
+  - J A Maldjian
+  publisher: AJNR. American journal of neuroradiology
+  date: '2021-10-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7232
 - id: pubmed:34549344
   title: Relationship Between Time-Weighted Head Impact Exposure on Directional Changes
     in Diffusion Imaging in Youth Football Players.
