@@ -5,6 +5,15 @@
   display: contents;
 }
 
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
 .portrait {
   position: relative;
   display: inline-flex;

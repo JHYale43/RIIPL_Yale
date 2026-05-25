@@ -15,6 +15,8 @@ Meet the remarkable minds behind RIIPL, a diverse team of multi-disciplinary tal
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" sort="order" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" sort="order" %}
+<div class="team-grid">
+  {% include list.html data="members" component="portrait" filters="role: pi" sort="order" %}
+  {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" sort="order" %}
+</div>
 
