@@ -19,6 +19,7 @@
     <img
       src="{{ member.image | relative_url }}"
       class="portrait-image"
+      {% if member.image_position %}style="object-position: {{ member.image_position }}"{% endif %}
       alt="member portrait"
       loading="lazy"
       {% include fallback.html %}

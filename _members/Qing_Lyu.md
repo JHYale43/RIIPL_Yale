@@ -1,6 +1,7 @@
 ---
 name: Qing Lyu
 image: images/staff_photos/qing_lyu_cropped.jpg
+image_position: center 20%
 role: asst_professor
 research_search:
   - Qing Lyu

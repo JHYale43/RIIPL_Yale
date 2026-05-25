@@ -1,6 +1,7 @@
 ---
 name: Kevin Yu
 image: images/staff_photos/kevin_yu.jpg
+image_position: center 20%
 role: md-phd
 description: Research Associate
 group: md-phd
