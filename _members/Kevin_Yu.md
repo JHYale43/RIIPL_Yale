@@ -1,5 +1,6 @@
 ---
 name: Kevin Yu
+order: 4
 image: images/staff_photos/kevin_yu.jpg
 image_position: center 20%
 role: md-phd

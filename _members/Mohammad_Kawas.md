@@ -1,5 +1,6 @@
 ---
 name: Mohammad Kawas
+order: 3
 image: images/staff_photos/mohammad_kawas.jpg
 role: research_asst
 description: Associate Research Scientist

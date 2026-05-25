@@ -1,5 +1,6 @@
 ---
 name: Qing Lyu
+order: 2
 image: images/staff_photos/qing_lyu_cropped.jpg
 image_position: center 20%
 role: asst_professor

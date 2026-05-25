@@ -1,5 +1,6 @@
 ---
 name: Christopher Whitlow
+order: 1
 image: "images/staff_photos/chris_whitlow.jpg"
 role: boss
 group: alum

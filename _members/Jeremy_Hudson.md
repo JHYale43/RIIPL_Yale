@@ -1,5 +1,6 @@
 ---
 name: Jeremy Hudson
+order: 5
 image: images/staff_photos/jeremy_hudson_cropped.png
 role: programmer
 description: Programmer Analyst
