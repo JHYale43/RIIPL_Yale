@@ -17,7 +17,7 @@
     aria-label="{{ member.name | default: "member link" }}"
   >
     <img
-      src="{{ member.image | relative_url }}"
+      src="{{ member.image | relative_url }}?v={{ site.time | date: '%s' }}"
       class="portrait-image"
       {% if member.image_position %}style="object-position: {{ member.image_position }}"{% endif %}
       alt="member portrait"
