@@ -757,33 +757,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1111/jon.70013
-- id: pubmed:41409187
-  title: External validation of a genomic signature for oligometastatic non-small
-    cell lung cancer.
-  authors:
-  - Ariel R Choi
-  - Ralph B D'Agostino
-  - Claire M Lanier
-  - Sarah Glynn
-  - Patrick Young
-  - Michael K Farris
-  - Mohammed Abdulhaleem
-  - Yuezhu Wang
-  - Margaret R Smith
-  - Jimmy Ruiz
-  - Thomas W Lycan
-  - W Jeffrey Petty
-  - Christina K Cramer
-  - Wencheng Li
-  - Jing Su
-  - Christopher T Whitlow
-  - Fei Xing
-  - Michael D Chan
-  publisher: Journal of radiosurgery and SBRT
-  date: '2025-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/41409187/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
 - id: pubmed:39731855
   title: Corrigendum to-"Ca2+ and CACNA1H mediate targeted suppression of breast cancer
     brain metastasis by AM RF EMF"-[eBiomedicine, 44 (2019) 194-208].
@@ -816,6 +789,33 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.ebiom.2024.105541
+- id: pubmed:41409187
+  title: External validation of a genomic signature for oligometastatic non-small
+    cell lung cancer.
+  authors:
+  - Ariel R Choi
+  - Ralph B D'Agostino
+  - Claire M Lanier
+  - Sarah Glynn
+  - Patrick Young
+  - Michael K Farris
+  - Mohammed Abdulhaleem
+  - Yuezhu Wang
+  - Margaret R Smith
+  - Jimmy Ruiz
+  - Thomas W Lycan
+  - W Jeffrey Petty
+  - Christina K Cramer
+  - Wencheng Li
+  - Jing Su
+  - Christopher T Whitlow
+  - Fei Xing
+  - Michael D Chan
+  publisher: Journal of radiosurgery and SBRT
+  date: '2025-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/41409187/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
 - id: pubmed:39235436
   title: 'Normative Neuroimaging Library: Designing a Comprehensive and Demographically
     Diverse Dataset of Healthy Controls to Support Traumatic Brain Injury Diagnostic
@@ -1067,29 +1067,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.bbi.2024.04.016
-- id: pubmed:38747525
-  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
-    disease and related dementias and the impact of health-related comorbidities in
-    a community-dwelling cohort.
-  authors:
-  - Marc D Rudolph
-  - Courtney L Sutphen
-  - Thomas C Register
-  - Christopher T Whitlow
-  - Kiran K Solingapuram Sai
-  - Timothy M Hughes
-  - James R Bateman
-  - Jeffrey L Dage
-  - Kristen A Russ
-  - Michelle M Mielke
-  - Suzanne Craft
-  - Samuel N Lockhart
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2024-06-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/38747525/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/alz.13835
 - id: pubmed:38764894
   title: 'Biomarkers of Neurodegeneration and Alzheimer''s Disease Neuropathology
     in Adolescents and Young Adults with Youth-Onset Type 1 or Type 2 Diabetes: A
@@ -1116,6 +1093,29 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3390/endocrines5020014
+- id: pubmed:38747525
+  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
+    disease and related dementias and the impact of health-related comorbidities in
+    a community-dwelling cohort.
+  authors:
+  - Marc D Rudolph
+  - Courtney L Sutphen
+  - Thomas C Register
+  - Christopher T Whitlow
+  - Kiran K Solingapuram Sai
+  - Timothy M Hughes
+  - James R Bateman
+  - Jeffrey L Dage
+  - Kristen A Russ
+  - Michelle M Mielke
+  - Suzanne Craft
+  - Samuel N Lockhart
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2024-06-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38747525/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.13835
 - id: pubmed:37972714
   title: Total-Body Irradiation Alters White Matter Volume and Microstructural Integrity
     in Rhesus Macaques.
@@ -1293,28 +1293,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1093/cercor/bhad463
-- id: pubmed:38070839
-  title: Assessing cerebrovascular reactivity (CVR) in rhesus macaques (Macaca mulatta)
-    using a hypercapnic challenge and pseudo-continuous arterial spin labeling (pCASL).
-  authors:
-  - Brendan J Johnson
-  - Megan E Lipford
-  - Richard A Barcus
-  - John D Olson
-  - George W Schaaf
-  - Rachel N Andrews
-  - Jeongchul Kim
-  - Greg O Dugan
-  - Simon Deycmar
-  - Colin A Reed
-  - Christopher T Whitlow
-  - J Mark Cline
-  publisher: NeuroImage
-  date: '2024-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/38070839/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1016/j.neuroimage.2023.120491
 - id: pubmed:37865197
   title: 'Delayed Imaging Changes 18 Months or Longer After Stereotactic Radiosurgery
     for Brain Metastases: Necrosis or Progression.'
@@ -1371,6 +1349,28 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2023.0073
+- id: pubmed:38070839
+  title: Assessing cerebrovascular reactivity (CVR) in rhesus macaques (Macaca mulatta)
+    using a hypercapnic challenge and pseudo-continuous arterial spin labeling (pCASL).
+  authors:
+  - Brendan J Johnson
+  - Megan E Lipford
+  - Richard A Barcus
+  - John D Olson
+  - George W Schaaf
+  - Rachel N Andrews
+  - Jeongchul Kim
+  - Greg O Dugan
+  - Simon Deycmar
+  - Colin A Reed
+  - Christopher T Whitlow
+  - J Mark Cline
+  publisher: NeuroImage
+  date: '2024-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38070839/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.neuroimage.2023.120491
 - id: pubmed:37961556
   title: 'Mediterranean Diet Protects Against a Neuroinflammatory Cortical Transcriptome:
     Associations with Brain Volumetrics, Peripheral Inflammation, Social Isolation
@@ -1478,6 +1478,24 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s42492-023-00136-5
+- id: pubmed:36574316
+  title: Reply.
+  authors:
+  - P M Cogswell
+  - C R Jack
+  - J A Barakos
+  - F Barkhof
+  - T S Benzinger
+  - C A Raji
+  - T Y Poussaint
+  - V K Ramanan
+  - C T Whitlow
+  publisher: AJNR. American journal of neuroradiology
+  date: '2023-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7731
 - id: pubmed:36779071
   title: Rapid-onset dystonia-parkinsonism is associated with reduced cerebral blood
     flow without gray matter changes.
@@ -1497,24 +1515,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3389/fneur.2023.1116723
-- id: pubmed:36574316
-  title: Reply.
-  authors:
-  - P M Cogswell
-  - C R Jack
-  - J A Barakos
-  - F Barkhof
-  - T S Benzinger
-  - C A Raji
-  - T Y Poussaint
-  - V K Ramanan
-  - C T Whitlow
-  publisher: AJNR. American journal of neuroradiology
-  date: '2023-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/36574316/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7731
 - id: pubmed:36335526
   title: 'Long term survivors of stereotactic radiosurgery for brain metastases: do
     distant brain failures reach a plateau and what factors are associated with a
@@ -1568,25 +1568,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.patter.2022.100613
-- id: pubmed:35953274
-  title: 'Amyloid-Related Imaging Abnormalities with Emerging Alzheimer Disease Therapeutics:
-    Detection and Reporting Recommendations for Clinical Practice.'
-  authors:
-  - P M Cogswell
-  - J A Barakos
-  - F Barkhof
-  - T S Benzinger
-  - C R Jack
-  - T Y Poussaint
-  - C A Raji
-  - V K Ramanan
-  - C T Whitlow
-  publisher: AJNR. American journal of neuroradiology
-  date: '2022-09-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35953274/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7586
 - id: pubmed:36053126
   title: MEG measured delta waves increase in adolescents after concussion.
   authors:
@@ -1606,6 +1587,25 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/brb3.2720
+- id: pubmed:35953274
+  title: 'Amyloid-Related Imaging Abnormalities with Emerging Alzheimer Disease Therapeutics:
+    Detection and Reporting Recommendations for Clinical Practice.'
+  authors:
+  - P M Cogswell
+  - J A Barakos
+  - F Barkhof
+  - T S Benzinger
+  - C R Jack
+  - T Y Poussaint
+  - C A Raji
+  - V K Ramanan
+  - C T Whitlow
+  publisher: AJNR. American journal of neuroradiology
+  date: '2022-09-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35953274/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7586
 - id: pubmed:35986059
   title: Early-stage COVID-19 pandemic observations on pulmonary embolism using nationwide
     multi-institutional data harvesting.
@@ -1726,49 +1726,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.celrep.2022.110669
-- id: pubmed:34310039
-  title: Comparing data-driven and hypothesis-driven MRI-based predictors of cognitive
-    impairment in individuals from the Atherosclerosis Risk in Communities (ARIC)
-    study.
-  authors:
-  - Ramon Casanova
-  - Fang-Chi Hsu
-  - Ryan T Barnard
-  - Andrea M Anderson
-  - Rajesh Talluri
-  - Christopher T Whitlow
-  - Timothy M Hughes
-  - Michael Griswold
-  - Kathleen M Hayden
-  - Rebecca F Gottesman
-  - Lynne E Wagenknecht
-  - Alzheimer's Disease Neuroimaging Initiative
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2022-04-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/34310039/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/alz.12427
-- id: pubmed:35061991
-  title: Cumulative strain-based metrics for predicting subconcussive head impact
-    exposure-related imaging changes in a cohort of American youth football players.
-  authors:
-  - Logan E Miller
-  - Jillian E Urban
-  - Mark A Espeland
-  - Michael P Walkup
-  - James M Holcomb
-  - Elizabeth M Davenport
-  - Alexander K Powers
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  publisher: Journal of neurosurgery. Pediatrics
-  date: '2022-04-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3171/2021.10.PEDS21355
 - id: pubmed:34482601
   title: 'Associations among vascular risk factors, neuroimaging biomarkers, and cognition:
     Preliminary analyses from the Multi-Ethnic Study of Atherosclerosis (MESA).'
@@ -1793,6 +1750,49 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12429
+- id: pubmed:35061991
+  title: Cumulative strain-based metrics for predicting subconcussive head impact
+    exposure-related imaging changes in a cohort of American youth football players.
+  authors:
+  - Logan E Miller
+  - Jillian E Urban
+  - Mark A Espeland
+  - Michael P Walkup
+  - James M Holcomb
+  - Elizabeth M Davenport
+  - Alexander K Powers
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  publisher: Journal of neurosurgery. Pediatrics
+  date: '2022-04-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3171/2021.10.PEDS21355
+- id: pubmed:34310039
+  title: Comparing data-driven and hypothesis-driven MRI-based predictors of cognitive
+    impairment in individuals from the Atherosclerosis Risk in Communities (ARIC)
+    study.
+  authors:
+  - Ramon Casanova
+  - Fang-Chi Hsu
+  - Ryan T Barnard
+  - Andrea M Anderson
+  - Rajesh Talluri
+  - Christopher T Whitlow
+  - Timothy M Hughes
+  - Michael Griswold
+  - Kathleen M Hayden
+  - Rebecca F Gottesman
+  - Lynne E Wagenknecht
+  - Alzheimer's Disease Neuroimaging Initiative
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2022-04-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/34310039/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.12427
 - id: pubmed:34310044
   title: 'Mediterranean and Western diet effects on Alzheimer''s disease biomarkers,
     cerebral perfusion, and cognition in mid-life: A randomized trial.'
@@ -1836,6 +1836,44 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3389/fphys.2022.1020999
+- id: pubmed:35310523
+  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
+    with aging in nonhuman primates.
+  authors:
+  - Brett M Frye
+  - Suzanne Craft
+  - Thomas C Register
+  - Jeongchul Kim
+  - Christopher T Whitlow
+  - Richard A Barcus
+  - Samuel N Lockhart
+  - Kiran Kumar Solingapuram Sai
+  - Carol A Shively
+  publisher: Alzheimer's & dementia (New York, N. Y.)
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/trc2.12284
+- id: pubmed:35295607
+  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
+    in a Rodent Model of Cocaine Abuse.
+  authors:
+  - Naresh Damuka
+  - Thomas J Martin
+  - Avinash H Bansode
+  - Ivan Krizan
+  - Conner W Martin
+  - Mack Miller
+  - Christopher T Whitlow
+  - Michael A Nader
+  - Kiran Kumar Solingapuram Sai
+  publisher: Frontiers in medicine
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fmed.2022.817274
 - id: pubmed:36314205
   title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
     Brain Microstructure, Perfusion, and Cognition.
@@ -1862,25 +1900,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3233/JAD-220646
-- id: pubmed:35310523
-  title: Early Alzheimer's disease-like reductions in gray matter and cognitive function
-    with aging in nonhuman primates.
-  authors:
-  - Brett M Frye
-  - Suzanne Craft
-  - Thomas C Register
-  - Jeongchul Kim
-  - Christopher T Whitlow
-  - Richard A Barcus
-  - Samuel N Lockhart
-  - Kiran Kumar Solingapuram Sai
-  - Carol A Shively
-  publisher: Alzheimer's & dementia (New York, N. Y.)
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35310523/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/trc2.12284
 - id: pubmed:35814618
   title: Vascular and microstructural markers of cognitive pathology.
   authors:
@@ -1906,25 +1925,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/dad2.12332
-- id: pubmed:35295607
-  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
-    in a Rodent Model of Cocaine Abuse.
-  authors:
-  - Naresh Damuka
-  - Thomas J Martin
-  - Avinash H Bansode
-  - Ivan Krizan
-  - Conner W Martin
-  - Mack Miller
-  - Christopher T Whitlow
-  - Michael A Nader
-  - Kiran Kumar Solingapuram Sai
-  publisher: Frontiers in medicine
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3389/fmed.2022.817274
 - id: pubmed:34764354
   title: Apolipoprotein E levels in the amygdala and prefrontal cortex predict relative
     regional brain volumes in irradiated Rhesus macaques.
