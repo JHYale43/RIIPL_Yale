@@ -296,6 +296,23 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s12885-025-15222-5
+- id: pubmed:40888012
+  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
+  authors:
+  - Ihtsham U Haq
+  - Kristina Simonyan
+  - Eleonora Napoli
+  - Laurie J Ozelius
+  - Beverly M Snively
+  - Christopher T Whitlow
+  - Kathleen J Sweadner
+  - Allison Brashear
+  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/mds.30320
 - id: pubmed:41145886
   title: Longitudinal measures of monkey brain structure and activity through adolescence
     predict cognitive maturation.
@@ -320,23 +337,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1038/s41593-025-02076-0
-- id: pubmed:40888012
-  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
-  authors:
-  - Ihtsham U Haq
-  - Kristina Simonyan
-  - Eleonora Napoli
-  - Laurie J Ozelius
-  - Beverly M Snively
-  - Christopher T Whitlow
-  - Kathleen J Sweadner
-  - Allison Brashear
-  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
-  date: '2025-11-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/mds.30320
 - id: pubmed:40717441
   title: The differential relationship between white matter cerebrovascular perfusion
     and microstructure between normal cognition and mild cognitive impairment.
@@ -1750,6 +1750,26 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12429
+- id: pubmed:35061991
+  title: Cumulative strain-based metrics for predicting subconcussive head impact
+    exposure-related imaging changes in a cohort of American youth football players.
+  authors:
+  - Logan E Miller
+  - Jillian E Urban
+  - Mark A Espeland
+  - Michael P Walkup
+  - James M Holcomb
+  - Elizabeth M Davenport
+  - Alexander K Powers
+  - Christopher T Whitlow
+  - Joseph A Maldjian
+  - Joel D Stitzel
+  publisher: Journal of neurosurgery. Pediatrics
+  date: '2022-04-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3171/2021.10.PEDS21355
 - id: pubmed:34310039
   title: Comparing data-driven and hypothesis-driven MRI-based predictors of cognitive
     impairment in individuals from the Atherosclerosis Risk in Communities (ARIC)
@@ -1773,26 +1793,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12427
-- id: pubmed:35061991
-  title: Cumulative strain-based metrics for predicting subconcussive head impact
-    exposure-related imaging changes in a cohort of American youth football players.
-  authors:
-  - Logan E Miller
-  - Jillian E Urban
-  - Mark A Espeland
-  - Michael P Walkup
-  - James M Holcomb
-  - Elizabeth M Davenport
-  - Alexander K Powers
-  - Christopher T Whitlow
-  - Joseph A Maldjian
-  - Joel D Stitzel
-  publisher: Journal of neurosurgery. Pediatrics
-  date: '2022-04-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35061991/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3171/2021.10.PEDS21355
 - id: pubmed:34310044
   title: 'Mediterranean and Western diet effects on Alzheimer''s disease biomarkers,
     cerebral perfusion, and cognition in mid-life: A randomized trial.'
@@ -1834,6 +1834,71 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/trc2.12284
+- id: pubmed:36213243
+  title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
+    among people with risk of cognitive decline.'
+  authors:
+  - Donghoon Kim
+  - Timothy M Hughes
+  - Megan E Lipford
+  - Suzanne Craft
+  - Laura D Baker
+  - Samuel N Lockhart
+  - Christopher T Whitlow
+  - Stephanie E Okonmah-Obazee
+  - Christina E Hugenschmidt
+  - Matthew Bobinski
+  - Youngkyoo Jung
+  publisher: Frontiers in physiology
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/36213243/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fphys.2022.1020999
+- id: pubmed:35814618
+  title: Vascular and microstructural markers of cognitive pathology.
+  authors:
+  - Claudia Coffin
+  - Cynthia K Suerken
+  - James R Bateman
+  - Christopher T Whitlow
+  - Benjamin J Williams
+  - Mark A Espeland
+  - Bonnie C Sachs
+  - Maryjo Cleveland
+  - Mia Yang
+  - Samantha Rogers
+  - Kathleen M Hayden
+  - Laura D Baker
+  - Jeff Williamson
+  - Suzanne Craft
+  - Timothy M Hughes
+  - Samuel N Lockhart
+  publisher: Alzheimer's & dementia (Amsterdam, Netherlands)
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35814618/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/dad2.12332
+- id: pubmed:35295607
+  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
+    in a Rodent Model of Cocaine Abuse.
+  authors:
+  - Naresh Damuka
+  - Thomas J Martin
+  - Avinash H Bansode
+  - Ivan Krizan
+  - Conner W Martin
+  - Mack Miller
+  - Christopher T Whitlow
+  - Michael A Nader
+  - Kiran Kumar Solingapuram Sai
+  publisher: Frontiers in medicine
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fmed.2022.817274
 - id: pubmed:36314205
   title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
     Brain Microstructure, Perfusion, and Cognition.
@@ -1860,71 +1925,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3233/JAD-220646
-- id: pubmed:36213243
-  title: 'Corrigendum: Relationship between cerebrovascular reactivity and cognition
-    among people with risk of cognitive decline.'
-  authors:
-  - Donghoon Kim
-  - Timothy M Hughes
-  - Megan E Lipford
-  - Suzanne Craft
-  - Laura D Baker
-  - Samuel N Lockhart
-  - Christopher T Whitlow
-  - Stephanie E Okonmah-Obazee
-  - Christina E Hugenschmidt
-  - Matthew Bobinski
-  - Youngkyoo Jung
-  publisher: Frontiers in physiology
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/36213243/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3389/fphys.2022.1020999
-- id: pubmed:35295607
-  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
-    in a Rodent Model of Cocaine Abuse.
-  authors:
-  - Naresh Damuka
-  - Thomas J Martin
-  - Avinash H Bansode
-  - Ivan Krizan
-  - Conner W Martin
-  - Mack Miller
-  - Christopher T Whitlow
-  - Michael A Nader
-  - Kiran Kumar Solingapuram Sai
-  publisher: Frontiers in medicine
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3389/fmed.2022.817274
-- id: pubmed:35814618
-  title: Vascular and microstructural markers of cognitive pathology.
-  authors:
-  - Claudia Coffin
-  - Cynthia K Suerken
-  - James R Bateman
-  - Christopher T Whitlow
-  - Benjamin J Williams
-  - Mark A Espeland
-  - Bonnie C Sachs
-  - Maryjo Cleveland
-  - Mia Yang
-  - Samantha Rogers
-  - Kathleen M Hayden
-  - Laura D Baker
-  - Jeff Williamson
-  - Suzanne Craft
-  - Timothy M Hughes
-  - Samuel N Lockhart
-  publisher: Alzheimer's & dementia (Amsterdam, Netherlands)
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35814618/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/dad2.12332
 - id: pubmed:34764354
   title: Apolipoprotein E levels in the amygdala and prefrontal cortex predict relative
     regional brain volumes in irradiated Rhesus macaques.
