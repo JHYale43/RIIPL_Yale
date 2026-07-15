@@ -327,6 +327,23 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1186/s12885-025-15222-5
+- id: pubmed:40888012
+  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
+  authors:
+  - Ihtsham U Haq
+  - Kristina Simonyan
+  - Eleonora Napoli
+  - Laurie J Ozelius
+  - Beverly M Snively
+  - Christopher T Whitlow
+  - Kathleen J Sweadner
+  - Allison Brashear
+  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
+  date: '2025-11-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/mds.30320
 - id: pubmed:41145886
   title: Longitudinal measures of monkey brain structure and activity through adolescence
     predict cognitive maturation.
@@ -375,23 +392,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1177/13872877251360740
-- id: pubmed:40888012
-  title: Structural Alterations in the Gray Matter Volume in Rapid-Onset Dystonia-Parkinsonism.
-  authors:
-  - Ihtsham U Haq
-  - Kristina Simonyan
-  - Eleonora Napoli
-  - Laurie J Ozelius
-  - Beverly M Snively
-  - Christopher T Whitlow
-  - Kathleen J Sweadner
-  - Allison Brashear
-  publisher: 'Movement disorders : official journal of the Movement Disorder Society'
-  date: '2025-11-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/40888012/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/mds.30320
 - id: pubmed:40675469
   title: Multimodal radiopathomics signature for prediction of response to immunotherapy-based
     combination therapy in gastric cancer using interpretable machine learning.
@@ -476,6 +476,27 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3390/cancers17182980
+- id: pubmed:40639970
+  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
+    Therapies.
+  authors:
+  - Ana M Franceschi
+  - Graham Keir
+  - Tammie L S Benzinger
+  - Petrice M Cogswell
+  - Farzana Z Ali
+  - Jeffrey R Petrella
+  - Jeffrey W Prescott
+  - Christopher T Whitlow
+  - Greg Zaharchuk
+  - Jason W Allen
+  - American Society of Functional Neuroradiology (ASFNR)
+  publisher: AJNR. American journal of neuroradiology
+  date: '2025-08-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/40639970/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A8738
 - id: pubmed:40329815
   title: Correlating Magnetoencephalography, Diffusion Kurtosis Imaging, Biomechanics,
     and Neuropsychology in American Youth Football.
@@ -502,27 +523,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2024.0222
-- id: pubmed:40639970
-  title: Clinical Role of Brain PET in Alzheimer Disease in the Era of Disease-Modifying
-    Therapies.
-  authors:
-  - Ana M Franceschi
-  - Graham Keir
-  - Tammie L S Benzinger
-  - Petrice M Cogswell
-  - Farzana Z Ali
-  - Jeffrey R Petrella
-  - Jeffrey W Prescott
-  - Christopher T Whitlow
-  - Greg Zaharchuk
-  - Jason W Allen
-  - American Society of Functional Neuroradiology (ASFNR)
-  publisher: AJNR. American journal of neuroradiology
-  date: '2025-08-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/40639970/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A8738
 - id: pubmed:40613474
   title: Evaluation of plasma p-tau217 for detecting amyloid pathology in a heterogeneous
     community-based cohort.
@@ -1098,6 +1098,29 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.bbi.2024.04.016
+- id: pubmed:38747525
+  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
+    disease and related dementias and the impact of health-related comorbidities in
+    a community-dwelling cohort.
+  authors:
+  - Marc D Rudolph
+  - Courtney L Sutphen
+  - Thomas C Register
+  - Christopher T Whitlow
+  - Kiran K Solingapuram Sai
+  - Timothy M Hughes
+  - James R Bateman
+  - Jeffrey L Dage
+  - Kristen A Russ
+  - Michelle M Mielke
+  - Suzanne Craft
+  - Samuel N Lockhart
+  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
+  date: '2024-06-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38747525/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1002/alz.13835
 - id: pubmed:38764894
   title: 'Biomarkers of Neurodegeneration and Alzheimer''s Disease Neuropathology
     in Adolescents and Young Adults with Youth-Onset Type 1 or Type 2 Diabetes: A
@@ -1124,29 +1147,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3390/endocrines5020014
-- id: pubmed:38747525
-  title: Associations among plasma, MRI, and amyloid PET biomarkers of Alzheimer's
-    disease and related dementias and the impact of health-related comorbidities in
-    a community-dwelling cohort.
-  authors:
-  - Marc D Rudolph
-  - Courtney L Sutphen
-  - Thomas C Register
-  - Christopher T Whitlow
-  - Kiran K Solingapuram Sai
-  - Timothy M Hughes
-  - James R Bateman
-  - Jeffrey L Dage
-  - Kristen A Russ
-  - Michelle M Mielke
-  - Suzanne Craft
-  - Samuel N Lockhart
-  publisher: 'Alzheimer''s & dementia : the journal of the Alzheimer''s Association'
-  date: '2024-06-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/38747525/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1002/alz.13835
 - id: pubmed:37972714
   title: Total-Body Irradiation Alters White Matter Volume and Microstructural Integrity
     in Rhesus Macaques.
@@ -1324,29 +1324,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1093/cercor/bhad463
-- id: pubmed:37865197
-  title: 'Delayed Imaging Changes 18 Months or Longer After Stereotactic Radiosurgery
-    for Brain Metastases: Necrosis or Progression.'
-  authors:
-  - Michelle M Williams
-  - Arian K Sohrabi
-  - Carol A Kittel
-  - Jaclyn J White
-  - Christina K Cramer
-  - Claire M Lanier
-  - Jimmy Ruiz
-  - Fei Xing
-  - Wencheng Li
-  - Christopher T Whitlow
-  - Stephen B Tatter
-  - Michael D Chan
-  - Adrian W Laxton
-  publisher: World neurosurgery
-  date: '2024-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/37865197/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.1016/j.wneu.2023.10.079
 - id: pubmed:37463061
   title: 'CARE4Kids Study: Endophenotypes of Persistent Post-Concussive Symptoms in
     Adolescents: Study Rationale and Protocol.'
@@ -1402,6 +1379,29 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1016/j.neuroimage.2023.120491
+- id: pubmed:37865197
+  title: 'Delayed Imaging Changes 18 Months or Longer After Stereotactic Radiosurgery
+    for Brain Metastases: Necrosis or Progression.'
+  authors:
+  - Michelle M Williams
+  - Arian K Sohrabi
+  - Carol A Kittel
+  - Jaclyn J White
+  - Christina K Cramer
+  - Claire M Lanier
+  - Jimmy Ruiz
+  - Fei Xing
+  - Wencheng Li
+  - Christopher T Whitlow
+  - Stephen B Tatter
+  - Michael D Chan
+  - Adrian W Laxton
+  publisher: World neurosurgery
+  date: '2024-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/37865197/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.1016/j.wneu.2023.10.079
 - id: pubmed:37961556
   title: 'Mediterranean Diet Protects Against a Neuroinflammatory Cortical Transcriptome:
     Associations with Brain Volumetrics, Peripheral Inflammation, Social Isolation
@@ -1846,6 +1846,25 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1002/alz.12421
+- id: pubmed:35295607
+  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
+    in a Rodent Model of Cocaine Abuse.
+  authors:
+  - Naresh Damuka
+  - Thomas J Martin
+  - Avinash H Bansode
+  - Ivan Krizan
+  - Conner W Martin
+  - Mack Miller
+  - Christopher T Whitlow
+  - Michael A Nader
+  - Kiran Kumar Solingapuram Sai
+  publisher: Frontiers in medicine
+  date: '2022-01-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3389/fmed.2022.817274
 - id: pubmed:35814618
   title: Vascular and microstructural markers of cognitive pathology.
   authors:
@@ -1892,25 +1911,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.3389/fphys.2022.1020999
-- id: pubmed:35295607
-  title: Initial Evaluations of the Microtubule-Based PET Radiotracer, [11C]MPC-6827
-    in a Rodent Model of Cocaine Abuse.
-  authors:
-  - Naresh Damuka
-  - Thomas J Martin
-  - Avinash H Bansode
-  - Ivan Krizan
-  - Conner W Martin
-  - Mack Miller
-  - Christopher T Whitlow
-  - Michael A Nader
-  - Kiran Kumar Solingapuram Sai
-  publisher: Frontiers in medicine
-  date: '2022-01-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/35295607/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3389/fmed.2022.817274
 - id: pubmed:36314205
   title: Hypertensive Aspects of Cardiometabolic Disorders Are Associated with Lower
     Brain Microstructure, Perfusion, and Cognition.
@@ -2015,24 +2015,6 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1007/s10439-021-02862-4
-- id: pubmed:34503943
-  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
-    following Concussion.
-  authors:
-  - D D Reddy
-  - E M Davenport
-  - F F Yu
-  - B Wagner
-  - J E Urban
-  - C T Whitlow
-  - J D Stitzel
-  - J A Maldjian
-  publisher: AJNR. American journal of neuroradiology
-  date: '2021-10-01'
-  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
-  plugin: pubmed-direct.py
-  file: pubmed.yaml
-  doi: 10.3174/ajnr.A7232
 - id: pubmed:34039024
   title: Regional White Matter Diffusion Changes Associated with the Cumulative Tensile
     Strain and Strain Rate in Nonconcussed Youth Football Players.
@@ -2055,6 +2037,24 @@
   plugin: pubmed-direct.py
   file: pubmed.yaml
   doi: 10.1089/neu.2020.7580
+- id: pubmed:34503943
+  title: Alterations in the Magnetoencephalography Default Mode Effective Connectivity
+    following Concussion.
+  authors:
+  - D D Reddy
+  - E M Davenport
+  - F F Yu
+  - B Wagner
+  - J E Urban
+  - C T Whitlow
+  - J D Stitzel
+  - J A Maldjian
+  publisher: AJNR. American journal of neuroradiology
+  date: '2021-10-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/34503943/
+  plugin: pubmed-direct.py
+  file: pubmed.yaml
+  doi: 10.3174/ajnr.A7232
 - id: pubmed:34233941
   title: Feasibility and Biological Activity of a Ketogenic/Intermittent-Fasting Diet
     in Patients With Glioma.
