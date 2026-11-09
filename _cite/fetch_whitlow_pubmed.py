@@ -60,11 +60,16 @@ AFFIL_RE = re.compile(r"wake\s*forest|yale", re.IGNORECASE)
 MEMBERS: list[dict[str, str]] = [
     {
         "name": "Christopher Whitlow",
-        "query": "Whitlow CT[Author] OR 0000-0003-2392-8293[AUID]",
-        # Whitlow CT query already excludes "Clysha Whitlow", so a plain
-        # last-name match is safe here and catches both "C Whitlow" and
-        # "Christopher T Whitlow" renderings.
-        "author_regex": r"\bwhitlow\b",
+        # Many journals drop the middle initial (or misspell "Cristopher"),
+        # so PubMed indexes him as plain "Whitlow C" with no ORCID. Catch
+        # those via "Whitlow C" restricted to Wake Forest / Yale.
+        "query": (
+            "Whitlow CT[Author] OR 0000-0003-2392-8293[AUID]"
+            f" OR (Whitlow C[Author] AND {AFFIL_FILTER})"
+        ),
+        # Require a Christopher-style given name so a "Whitlow C" namesake
+        # (e.g. Clysha Whitlow) can't slip in through the looser query.
+        "author_regex": r"\b(?:christopher|cristopher|chris|c)(?:\s+\w+)?\s+whitlow\b",
     },
     {
         "name": "Qing Lyu",
